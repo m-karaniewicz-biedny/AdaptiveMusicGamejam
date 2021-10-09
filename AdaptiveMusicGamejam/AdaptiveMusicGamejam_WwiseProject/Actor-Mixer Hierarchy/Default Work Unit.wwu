@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ciezko to nazwać czymkolwiek" ID="{0434005C-9478-4A47-9933-4298995D07E3}" ShortID="808612214">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ciezko to nazwać czymkolwiek" ID="{2787423A-0DE4-4E6F-8787-833B59FD3495}">
+							<Language>SFX</Language>
+							<AudioFile>ciezko to nazwać czymkolwiek.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="739948149"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ciezko to nazwać czymkolwiek" ID="{2787423A-0DE4-4E6F-8787-833B59FD3495}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

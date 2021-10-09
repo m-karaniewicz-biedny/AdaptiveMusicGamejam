@@ -63,6 +63,16 @@ crashlytics-build.properties
 # Ignore the auto-generated AOT compatibility dll.
 /Assets/Plugins/Sirenix/Assemblies/AOT/*
 
+# Wwise
+.cache
+*.akd
+*.prof
+*.validationcache
+/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+
+WwiseUnityIntegration_*_Src.zip
+
+
 # Ignore all unpacked demos.
 /Assets/Plugins/Sirenix/Demos/*
 
