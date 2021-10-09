@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3050945240	New_Event			\Default Work Unit\New_Event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	739948149	ciezko to nazwać czymkolwiek	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\ciezko to nazwać czymkolwiek_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ciezko to nazwać czymkolwiek		655956
+	739948149	ciezko to nazwać czymkolwiek	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\ciezko to nazwać czymkolwiek_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ciezko to nazwać czymkolwiek		655956
 
