@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9152283516805532347}
   - component: {fileID: 3401376411479503033}
   - component: {fileID: 156947794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,8 @@ GameObject:
   - component: {fileID: 7306771282661702727}
   - component: {fileID: 6304317173845661424}
   - component: {fileID: 8628180260092673735}
-  m_Layer: 0
+  - component: {fileID: -3461910129874452360}
+  m_Layer: 6
   m_Name: Crystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,3 +310,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offsetY: 2.5
+--- !u!114 &-3461910129874452360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6299044763342691805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985b47d97a1fa3344b45bada98ac7a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltip: Click to activate.
+  DestroyParticlePrefab: {fileID: 6126977257757271097, guid: f14914fbf60c1e34aae6fd4959b52dd1, type: 3}

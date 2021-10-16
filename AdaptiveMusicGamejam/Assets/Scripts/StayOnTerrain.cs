@@ -7,6 +7,10 @@ public class StayOnTerrain : MonoBehaviour
 {
     [SerializeField] float offsetY = 0;
     
+    private void OnValidate() {
+        UpdatePosition();
+    }
+    
     private void OnEnable() {
         UpdatePosition();
     }
