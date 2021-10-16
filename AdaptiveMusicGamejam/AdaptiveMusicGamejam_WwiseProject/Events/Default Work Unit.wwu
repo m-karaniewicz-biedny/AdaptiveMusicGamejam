@@ -28,6 +28,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StateDesert" ID="{BB7AB5E9-8C81-4BC6-877C-FF7F5E0BF15B}">
+					<ChildrenList>
+						<Action Name="" ID="{F7DE084E-8C5C-4EAB-97D8-5977186C0E2B}" ShortID="39318326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="desert" ID="{88BBE114-15F3-415B-97E2-153103FFB684}" WorkUnitID="{7AD43064-6335-4131-B9C7-A9459347826A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StateWinter" ID="{9850F5FF-FB66-4875-B925-5AEDE281EB89}">
+					<ChildrenList>
+						<Action Name="" ID="{9DA4586C-7B7D-4BC8-AB28-9D3AF16EF19E}" ShortID="30599164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="winter" ID="{31CEBD3E-5CC6-46B4-A7D3-74268D8F5123}" WorkUnitID="{7AD43064-6335-4131-B9C7-A9459347826A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StateMeadow" ID="{AB70B44A-CE83-46C3-A96E-29B9C320E5FB}">
+					<ChildrenList>
+						<Action Name="" ID="{D7FD3536-1F99-4529-A5A3-A2DD0E77C7A5}" ShortID="554087818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="meadow" ID="{990E1496-6299-4BE4-BDA4-034F950DABF7}" WorkUnitID="{7AD43064-6335-4131-B9C7-A9459347826A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StateForest" ID="{A540B53F-388E-4905-97F1-437FC4953DA4}">
+					<ChildrenList>
+						<Action Name="" ID="{60639739-3E57-4222-A09D-81BDB804EE14}" ShortID="576155818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="forest" ID="{82771B0D-E4F5-49D1-90EE-1473E26F7460}" WorkUnitID="{7AD43064-6335-4131-B9C7-A9459347826A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

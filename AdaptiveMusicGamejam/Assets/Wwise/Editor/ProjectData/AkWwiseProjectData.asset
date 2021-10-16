@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: e3391d53b423c54da131bbc7ac35d6f5
     GuidInternal: 
-    m_lastTime: -8585678223857660077
+    m_lastTime: -8585678193679265377
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: e608a9fbde6a304986cdad7e6653e180
     GuidInternal: 
-    m_lastTime: -8585678223860729178
+    m_lastTime: -8585678193679403312
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8898c604cb996f4c9f825bcc61b9e48b
     GuidInternal: 
-    m_lastTime: -8585678216223581848
+    m_lastTime: -8585671977951387526
     List:
     - name: Main
       guid: aab02cdcb38d65479e8815c2d8673fdc
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 208c3b533470594e88fe35946339981a
     GuidInternal: 
-    m_lastTime: -8585678216675672573
+    m_lastTime: -8585671990864014701
     List:
-    - name: New_Event
-      guid: d62a7424d6cf104e84c4b82a1d2664bc
-      id: 3050945240
+    - name: Music
+      guid: b7dcd4e1926cdd4ea95fc3161f4b73f4
+      id: 3991942870
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,13 +106,98 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 208c3b533470594e88fe35946339981a
-      - ElementName: New_Event
+      - ElementName: Music
         ObjectType: 3
-        guid: d62a7424d6cf104e84c4b82a1d2664bc
-      Path: Events\Default Work Unit\New_Event
+        guid: b7dcd4e1926cdd4ea95fc3161f4b73f4
+      Path: Events\Default Work Unit\Music
       maxAttenuation: 0
-      maxDuration: 6.832208
-      minDuration: 6.832208
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayStinger
+      guid: 3b76c7b3dc3a274da3d318d78a69de3a
+      id: 2407620891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: PlayStinger
+        ObjectType: 3
+        guid: 3b76c7b3dc3a274da3d318d78a69de3a
+      Path: Events\Default Work Unit\PlayStinger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateDesert
+      guid: e9b57abb818cc64b877cff7f5e0bf15b
+      id: 813920379
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: StateDesert
+        ObjectType: 3
+        guid: e9b57abb818cc64b877cff7f5e0bf15b
+      Path: Events\Default Work Unit\StateDesert
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateForest
+      guid: 3fb540a58e38054997f1437fc4953da4
+      id: 1615276403
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: StateForest
+        ObjectType: 3
+        guid: 3fb540a58e38054997f1437fc4953da4
+      Path: Events\Default Work Unit\StateForest
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateMeadow
+      guid: 4ab470ab83cec346a96e29b9c320e5fb
+      id: 1251028707
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: StateMeadow
+        ObjectType: 3
+        guid: 4ab470ab83cec346a96e29b9c320e5fb
+      Path: Events\Default Work Unit\StateMeadow
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateWinter
+      guid: fff5509866fb7548b9255aede281eb89
+      id: 1530808851
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: StateWinter
+        ObjectType: 3
+        guid: fff5509866fb7548b9255aede281eb89
+      Path: Events\Default Work Unit\StateWinter
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -125,7 +210,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 2f2bc5dbc1ba9644b3ba3f5ca3714830
     GuidInternal: 
-    m_lastTime: -8585678223861592117
+    m_lastTime: -8585678193679548603
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -139,8 +224,106 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 6430d47a35633141b9c7a9459347826a
     GuidInternal: 
-    m_lastTime: -8585678223858451749
-    List: []
+    m_lastTime: -8585672010021207013
+    List:
+    - name: MusicStates
+      guid: af25e7f187ba444d90b16d6db0841a28
+      id: 3103015060
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6430d47a35633141b9c7a9459347826a
+      - ElementName: MusicStates
+        ObjectType: 9
+        guid: af25e7f187ba444d90b16d6db0841a28
+      Path: States\Default Work Unit\MusicStates
+      values:
+      - name: desert
+        guid: 14e1bb88f3155b4197e2153103ffb684
+        id: 1850388778
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6430d47a35633141b9c7a9459347826a
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: af25e7f187ba444d90b16d6db0841a28
+        - ElementName: desert
+          ObjectType: 8
+          guid: 14e1bb88f3155b4197e2153103ffb684
+      - name: forest
+        guid: 0d1b7782f5e4d14990ee1473e26f7460
+        id: 491961918
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6430d47a35633141b9c7a9459347826a
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: af25e7f187ba444d90b16d6db0841a28
+        - ElementName: forest
+          ObjectType: 8
+          guid: 0d1b7782f5e4d14990ee1473e26f7460
+      - name: meadow
+        guid: 96140e999962e44bbda4034f950dabf7
+        id: 2435155766
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6430d47a35633141b9c7a9459347826a
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: af25e7f187ba444d90b16d6db0841a28
+        - ElementName: meadow
+          ObjectType: 8
+          guid: 96140e999962e44bbda4034f950dabf7
+      - name: None
+        guid: 04b50b7cd0118e45a0cd1e0eebb35d32
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6430d47a35633141b9c7a9459347826a
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: af25e7f187ba444d90b16d6db0841a28
+        - ElementName: None
+          ObjectType: 8
+          guid: 04b50b7cd0118e45a0cd1e0eebb35d32
+      - name: winter
+        guid: 3ebdce31c65cb446a7d374268d8f5123
+        id: 2965343494
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6430d47a35633141b9c7a9459347826a
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: af25e7f187ba444d90b16d6db0841a28
+        - ElementName: winter
+          ObjectType: 8
+          guid: 3ebdce31c65cb446a7d374268d8f5123
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -153,8 +336,90 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: f82a9b74690d184484710cd8d78e67e6
     GuidInternal: 
-    m_lastTime: -8585678223861472187
-    List: []
+    m_lastTime: -8585672010021197301
+    List:
+    - name: MusicSwitch
+      guid: 94566d174ae093439d13eb0c704fdd9c
+      id: 1445037870
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f82a9b74690d184484710cd8d78e67e6
+      - ElementName: MusicSwitch
+        ObjectType: 11
+        guid: 94566d174ae093439d13eb0c704fdd9c
+      Path: Switches\Default Work Unit\MusicSwitch
+      values:
+      - name: Desert
+        guid: 560e148c67380b43b5df933010d4b5db
+        id: 1850388778
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f82a9b74690d184484710cd8d78e67e6
+        - ElementName: MusicSwitch
+          ObjectType: 11
+          guid: 94566d174ae093439d13eb0c704fdd9c
+        - ElementName: Desert
+          ObjectType: 10
+          guid: 560e148c67380b43b5df933010d4b5db
+      - name: Forest
+        guid: fa3732251a3cd449b8cbcd9c0245c719
+        id: 491961918
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f82a9b74690d184484710cd8d78e67e6
+        - ElementName: MusicSwitch
+          ObjectType: 11
+          guid: 94566d174ae093439d13eb0c704fdd9c
+        - ElementName: Forest
+          ObjectType: 10
+          guid: fa3732251a3cd449b8cbcd9c0245c719
+      - name: Meadow
+        guid: 3fc810c27b9a7746bbf3be6d4ccb6f95
+        id: 2435155766
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f82a9b74690d184484710cd8d78e67e6
+        - ElementName: MusicSwitch
+          ObjectType: 11
+          guid: 94566d174ae093439d13eb0c704fdd9c
+        - ElementName: Meadow
+          ObjectType: 10
+          guid: 3fc810c27b9a7746bbf3be6d4ccb6f95
+      - name: Winter
+        guid: 93e3c08cf7f37f478aceebf1835a91ed
+        id: 2965343494
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f82a9b74690d184484710cd8d78e67e6
+        - ElementName: MusicSwitch
+          ObjectType: 11
+          guid: 94566d174ae093439d13eb0c704fdd9c
+        - ElementName: Winter
+          ObjectType: 10
+          guid: 93e3c08cf7f37f478aceebf1835a91ed
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -167,10 +432,24 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: fbae1245da9d4b4691797c9a1c7e0cc7
     GuidInternal: 
-    m_lastTime: -8585678223858069028
-    List: []
+    m_lastTime: -8585672010021197301
+    List:
+    - name: MusicChanges
+      guid: 2353fd31d3142842a5c77b68665d4c32
+      id: 2011614757
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fbae1245da9d4b4691797c9a1c7e0cc7
+      - ElementName: MusicChanges
+        ObjectType: 14
+        guid: 2353fd31d3142842a5c77b68665d4c32
+      Path: Triggers\Default Work Unit\MusicChanges
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000600000007000000090000000a0000000b0000000c0000000e0000001100000015000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

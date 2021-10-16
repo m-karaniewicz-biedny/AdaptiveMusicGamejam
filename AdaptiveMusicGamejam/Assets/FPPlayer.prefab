@@ -316,6 +316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5745311639297237607}
   - component: {fileID: 5745311639297237606}
+  - component: {fileID: 7092527481917315166}
   - component: {fileID: 5745311639297237605}
   m_Layer: 0
   m_Name: FPPlayer
@@ -357,6 +358,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7092527481917315166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5745311639297237608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc49ae0006146284c992f0099aae65b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5745311639297237605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,7 +397,6 @@ MonoBehaviour:
   maxLookDownAngle: 45
   _currentCharacterHeight: 2
   _currentCharacterWidth: 0.5
-  groundCheckRadiusMultiplier: 1
   groundMask:
     serializedVersion: 2
     m_Bits: 192

@@ -57,7 +57,6 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float _currentCharacterHeight;
     [SerializeField] float _currentCharacterWidth;
-    [SerializeField] float groundCheckRadiusMultiplier = 0.3f;
     [SerializeField] LayerMask groundMask;
 
     private void Awake()

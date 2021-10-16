@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2401538843">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3860389151">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -67,8 +67,45 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2407620891" Name="PlayStinger" ObjectPath="\Events\Default Work Unit\PlayStinger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2011614757" Name="MusicChanges" ObjectPath="\Triggers\Default Work Unit\MusicChanges"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="813920379" Name="StateDesert" ObjectPath="\Events\Default Work Unit\StateDesert" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1850388778" Name="desert" ObjectPath="\States\Default Work Unit\MusicStates\desert"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1615276403" Name="StateForest" ObjectPath="\Events\Default Work Unit\StateForest" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="491961918" Name="forest" ObjectPath="\States\Default Work Unit\MusicStates\forest"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1251028707" Name="StateMeadow" ObjectPath="\Events\Default Work Unit\StateMeadow" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2435155766" Name="meadow" ObjectPath="\States\Default Work Unit\MusicStates\meadow"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1530808851" Name="StateWinter" ObjectPath="\Events\Default Work Unit\StateWinter" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2965343494" Name="winter" ObjectPath="\States\Default Work Unit\MusicStates\winter"/>
+					</ActionSetState>
+				</Event>
 			</IncludedEvents>
 			<StateGroups>
+				<StateGroup Id="491961918" Name="forest" ObjectPath="\States\Default Work Unit\MusicStates\forest" GUID="{82771B0D-E4F5-49D1-90EE-1473E26F7460}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1850388778" Name="desert" ObjectPath="\States\Default Work Unit\MusicStates\desert" GUID="{88BBE114-15F3-415B-97E2-153103FFB684}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2435155766" Name="meadow" ObjectPath="\States\Default Work Unit\MusicStates\meadow" GUID="{990E1496-6299-4BE4-BDA4-034F950DABF7}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2965343494" Name="winter" ObjectPath="\States\Default Work Unit\MusicStates\winter" GUID="{31CEBD3E-5CC6-46B4-A7D3-74268D8F5123}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="3103015060" Name="MusicStates" ObjectPath="\States\Default Work Unit\MusicStates" GUID="{F1E725AF-BA87-4D44-90B1-6D6DB0841A28}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicStates\None" GUID="{7C0BB504-11D0-458E-A0CD-1E0EEBB35D32}"/>

@@ -14,6 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PLAYSTINGER = 2407620891U;
+        static const AkUniqueID STATEDESERT = 813920379U;
+        static const AkUniqueID STATEFOREST = 1615276403U;
+        static const AkUniqueID STATEMEADOW = 1251028707U;
+        static const AkUniqueID STATEWINTER = 1530808851U;
     } // namespace EVENTS
 
     namespace STATES

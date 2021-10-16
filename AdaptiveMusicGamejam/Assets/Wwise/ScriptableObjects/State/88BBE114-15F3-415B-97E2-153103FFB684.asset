@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3292f98c3bc6cd946b8d750ca13fbc11, type: 3}
+  m_Name: 88BBE114-15F3-415B-97E2-153103FFB684
+  m_EditorClassIdentifier: 
+  objectName: desert
+  id: 1850388778
+  guid: 88BBE114-15F3-415B-97E2-153103FFB684
+  WwiseStateGroupReference: {fileID: 11400000, guid: ca7c4aef6c6df5a419c86254ce56fba3, type: 2}
