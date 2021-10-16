@@ -13,8 +13,48 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID NEW_EVENT = 3050945240U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSICSTATES
+        {
+            static const AkUniqueID GROUP = 3103015060U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DESERT = 1850388778U;
+                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID MEADOW = 2435155766U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WINTER = 2965343494U;
+            } // namespace STATE
+        } // namespace MUSICSTATES
+
+    } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace MUSICSWITCH
+        {
+            static const AkUniqueID GROUP = 1445037870U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DESERT = 1850388778U;
+                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID MEADOW = 2435155766U;
+                static const AkUniqueID WINTER = 2965343494U;
+            } // namespace SWITCH
+        } // namespace MUSICSWITCH
+
+    } // namespace SWITCHES
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID MUSICCHANGES = 2011614757U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

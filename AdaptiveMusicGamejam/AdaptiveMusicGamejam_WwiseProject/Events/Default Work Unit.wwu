@@ -3,12 +3,26 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{533B8C20-7034-4E59-88FE-35946339981A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="New_Event" ID="{24742AD6-CFD6-4E10-84C4-B82A1D2664BC}">
+				<Event Name="Music" ID="{E1D4DCB7-6C92-4EDD-A95F-C3161F4B73F4}">
 					<ChildrenList>
-						<Action Name="" ID="{DCC4DD43-D48D-4123-9C47-A5CDCD666801}" ShortID="411934076">
+						<Action Name="" ID="{E938273B-6BA5-4BED-84A9-8D13CB5552A8}" ShortID="472572482">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ciezko to nazwać czymkolwiek" ID="{0434005C-9478-4A47-9933-4298995D07E3}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+									<ObjectRef Name="Music Switch" ID="{52E96187-CE49-4698-9301-FF022F32FD5D}" WorkUnitID="{95A60054-458A-466E-8C46-51CBEFE413F3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayStinger" ID="{B3C7763B-3ADC-4D27-A3D3-18D78A69DE3A}">
+					<ChildrenList>
+						<Action Name="" ID="{1B98EFA2-42C5-41AE-9E62-E804A3C7A30B}" ShortID="907662463">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicChanges" ID="{31FD5323-14D3-4228-A5C7-7B68665D4C32}" WorkUnitID="{4512AEFB-9DDA-464B-9179-7C9A1C7E0CC7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

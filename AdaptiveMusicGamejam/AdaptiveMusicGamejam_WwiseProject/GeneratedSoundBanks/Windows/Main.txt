@@ -1,6 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3050945240	New_Event			\Default Work Unit\New_Event	
+	3991942870	Music			\Default Work Unit\Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3103015060	MusicStates			\Default Work Unit\MusicStates	
+
+State	ID	Name	State Group			Notes
+	491961918	forest	MusicStates			
+	748895195	None	MusicStates			
+	1850388778	desert	MusicStates			
+	2435155766	meadow	MusicStates			
+	2965343494	winter	MusicStates			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	2011614757	MusicChanges			\Default Work Unit\MusicChanges	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	739948149	ciezko to nazwać czymkolwiek	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\ciezko to nazwać czymkolwiek_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ciezko to nazwać czymkolwiek		655956
+	108117535	Winter	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Winter_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\WinterPlaylist\Winter\Winter		20275264
+	213270319	Meadow	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Meadow_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\MeadowPlaylist\Meadow\Meadow		20275264
+	219787393	Cymatics - Crystal Impact	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Cymatics - Crystal Impact_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Crystal Impact\Cymatics - Crystal Impact		1039344
+	520808378	AutumnForest	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\AutumnForest_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\ForestPlaylist\Forest\AutumnForest		20275264
+	696987774	Desert2	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Desert2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\DesertPlaylist\Desert2\Desert2		20275264
 

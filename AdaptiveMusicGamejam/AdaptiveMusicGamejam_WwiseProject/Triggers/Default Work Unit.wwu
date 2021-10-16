@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4512AEFB-9DDA-464B-9179-7C9A1C7E0CC7}" SchemaVersion="103">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{4512AEFB-9DDA-464B-9179-7C9A1C7E0CC7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4512AEFB-9DDA-464B-9179-7C9A1C7E0CC7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="MusicChanges" ID="{31FD5323-14D3-4228-A5C7-7B68665D4C32}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>
