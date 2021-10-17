@@ -9,6 +9,7 @@ public enum Region
     desert,
     forest,
     mountains,
+    tower,
 }
 
 public class PlayerPositionController : MonoBehaviour
@@ -16,7 +17,7 @@ public class PlayerPositionController : MonoBehaviour
 
 
     Vector3 mapCenter = new Vector3(125, 100, 125);
-    float wrapPositionAltitude = -100;
+    float wrapPositionAltitude = 500;
 
     internal Region currentRegion;
     Region lastFrameRegion;
@@ -30,11 +31,10 @@ public class PlayerPositionController : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.y < wrapPositionAltitude)
+        if (transform.position.y < -wrapPositionAltitude)
         {
-            Vector3 moveback = (mapCenter - transform.position) * 2;
-            Vector3 target = transform.position + moveback;
-            target.y = 500;
+            Vector3 target = GameManager.RandomRadialPositions(
+                new Vector3(125f, wrapPositionAltitude, 125f), 0, 50, 1)[0];
 
             transform.position = target;
         }
@@ -84,11 +84,23 @@ public class PlayerPositionController : MonoBehaviour
                     Debug.Log("Entering mountains.");
                     break;
                 }
+            case Region.tower:
+                {
+                    AkSoundEngine.PostEvent("StateNone", gameObject);
+                    Debug.Log("Entering unspecified region.");
+                    break;
+                }
         }
     }
 
     private Region GetRegionOnPosition(Vector3 position)
     {
+        float towerRadius = 10f;
+        if (Vector3.Distance(new Vector3(mapCenter.x, position.y, mapCenter.z), position) < towerRadius)
+        {
+            return Region.tower;
+        }
+
         if (position.x > mapCenter.x)
         {
             if (position.z > mapCenter.z) return Region.plains;

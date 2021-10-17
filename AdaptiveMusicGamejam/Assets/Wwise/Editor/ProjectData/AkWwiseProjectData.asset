@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8898c604cb996f4c9f825bcc61b9e48b
     GuidInternal: 
-    m_lastTime: -8585671712071759733
+    m_lastTime: -8585671297725614499
     List:
     - name: Main
       guid: aab02cdcb38d65479e8815c2d8673fdc
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 208c3b533470594e88fe35946339981a
     GuidInternal: 
-    m_lastTime: -8585671722359633829
+    m_lastTime: -8585671297726049965
     List:
+    - name: CrystalExplosionSFX
+      guid: 8f9347eb38532f4b9605c0e471959ca9
+      id: 2495924695
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: CrystalExplosionSFX
+        ObjectType: 3
+        guid: 8f9347eb38532f4b9605c0e471959ca9
+      Path: Events\Default Work Unit\CrystalExplosionSFX
+      maxAttenuation: 0
+      maxDuration: 5.006834
+      minDuration: 5.006834
+    - name: CrystalPulse
+      guid: bbed512d7210af4a808efcb14ca2fb9b
+      id: 283731020
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: CrystalPulse
+        ObjectType: 3
+        guid: bbed512d7210af4a808efcb14ca2fb9b
+      Path: Events\Default Work Unit\CrystalPulse
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
     - name: DesertSteps
       guid: f097a5176e31444fa2335c9ccc044b24
       id: 1950989119
@@ -246,6 +280,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4ab470ab83cec346a96e29b9c320e5fb
       Path: Events\Default Work Unit\StateMeadow
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateNone
+      guid: 7206d2ee66f02a4899411b9e687fe388
+      id: 3184095446
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: StateNone
+        ObjectType: 3
+        guid: 7206d2ee66f02a4899411b9e687fe388
+      Path: Events\Default Work Unit\StateNone
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -517,7 +568,7 @@ MonoBehaviour:
         guid: 2353fd31d3142842a5c77b68665d4c32
       Path: Triggers\Default Work Unit\MusicChanges
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000600000007000000090000000a0000000b0000000c0000000e0000001100000015000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c0000000e0000001100000015000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

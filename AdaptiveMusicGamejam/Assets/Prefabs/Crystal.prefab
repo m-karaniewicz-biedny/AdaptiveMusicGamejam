@@ -73,36 +73,36 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0, y: 102.49695, z: 1}
-  - {x: 0.20791171, y: 102.49695, z: 0.9781476}
-  - {x: 0.4067367, y: 102.49695, z: 0.9135454}
-  - {x: 0.5877853, y: 102.49695, z: 0.809017}
-  - {x: 0.74314487, y: 102.49695, z: 0.66913056}
-  - {x: 0.8660254, y: 102.49695, z: 0.5}
-  - {x: 0.95105654, y: 102.49695, z: 0.309017}
-  - {x: 0.9945219, y: 102.49695, z: 0.10452843}
-  - {x: 0.9945219, y: 102.49695, z: -0.10452855}
-  - {x: 0.9510565, y: 102.49695, z: -0.30901718}
-  - {x: 0.8660254, y: 102.49695, z: -0.5000001}
-  - {x: 0.7431448, y: 102.49695, z: -0.6691307}
-  - {x: 0.58778524, y: 102.49695, z: -0.80901706}
-  - {x: 0.40673658, y: 102.49695, z: -0.9135456}
-  - {x: 0.20791161, y: 102.49695, z: -0.9781476}
-  - {x: -0.00000008742278, y: 102.49695, z: -1}
-  - {x: -0.20791201, y: 102.49695, z: -0.9781474}
-  - {x: -0.40673673, y: 102.49695, z: -0.91354537}
-  - {x: -0.58778554, y: 102.49695, z: -0.8090168}
-  - {x: -0.7431449, y: 102.49695, z: -0.66913056}
-  - {x: -0.8660255, y: 102.49695, z: -0.5}
-  - {x: -0.9510564, y: 102.49695, z: -0.30901706}
-  - {x: -0.994522, y: 102.49695, z: -0.10452843}
-  - {x: -0.9945219, y: 102.49695, z: 0.10452843}
-  - {x: -0.9510565, y: 102.49695, z: 0.30901718}
-  - {x: -0.8660255, y: 102.49695, z: 0.49999988}
-  - {x: -0.74314475, y: 102.49695, z: 0.6691307}
-  - {x: -0.5877853, y: 102.49695, z: 0.80901694}
-  - {x: -0.4067365, y: 102.49695, z: 0.91354555}
-  - {x: -0.20791176, y: 102.49695, z: 0.97814757}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0.20791171, y: 0, z: 0.9781476}
+  - {x: 0.4067367, y: 0, z: 0.9135454}
+  - {x: 0.5877853, y: 0, z: 0.809017}
+  - {x: 0.74314487, y: 0, z: 0.66913056}
+  - {x: 0.8660254, y: 0, z: 0.5}
+  - {x: 0.95105654, y: 0, z: 0.309017}
+  - {x: 0.9945219, y: 0, z: 0.10452843}
+  - {x: 0.9945219, y: 0, z: -0.10452855}
+  - {x: 0.9510565, y: 0, z: -0.30901718}
+  - {x: 0.8660254, y: 0, z: -0.5000001}
+  - {x: 0.7431448, y: 0, z: -0.6691307}
+  - {x: 0.58778524, y: 0, z: -0.80901706}
+  - {x: 0.40673658, y: 0, z: -0.9135456}
+  - {x: 0.20791161, y: 0, z: -0.9781476}
+  - {x: -0.00000008742278, y: 0, z: -1}
+  - {x: -0.20791201, y: 0, z: -0.9781474}
+  - {x: -0.40673673, y: 0, z: -0.91354537}
+  - {x: -0.58778554, y: 0, z: -0.8090168}
+  - {x: -0.7431449, y: 0, z: -0.66913056}
+  - {x: -0.8660255, y: 0, z: -0.5}
+  - {x: -0.9510564, y: 0, z: -0.30901706}
+  - {x: -0.994522, y: 0, z: -0.10452843}
+  - {x: -0.9945219, y: 0, z: 0.10452843}
+  - {x: -0.9510565, y: 0, z: 0.30901718}
+  - {x: -0.8660255, y: 0, z: 0.49999988}
+  - {x: -0.74314475, y: 0, z: 0.6691307}
+  - {x: -0.5877853, y: 0, z: 0.80901694}
+  - {x: -0.4067365, y: 0, z: 0.91354555}
+  - {x: -0.20791176, y: 0, z: 0.97814757}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.5
@@ -156,7 +156,7 @@ LineRenderer:
     textureMode: 3
     shadowBias: 0
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 1
 --- !u!114 &156947794
 MonoBehaviour:
@@ -188,6 +188,8 @@ GameObject:
   - component: {fileID: 6304317173845661424}
   - component: {fileID: 8628180260092673735}
   - component: {fileID: -3461910129874452360}
+  - component: {fileID: 4804506773314735760}
+  - component: {fileID: 73735372819726810}
   m_Layer: 6
   m_Name: Crystal
   m_TagString: Untagged
@@ -324,3 +326,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltip: Click to activate.
   DestroyParticlePrefab: {fileID: 6126977257757271097, guid: f14914fbf60c1e34aae6fd4959b52dd1, type: 3}
+--- !u!114 &4804506773314735760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6299044763342691805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438a8a31e2d20c145bddd3e64ee7dd33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &73735372819726810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6299044763342691805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a8061364e62a7a45aecb20421411f11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7380e146ad10c164ab7a1d5201321f3a, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}

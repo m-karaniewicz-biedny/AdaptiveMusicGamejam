@@ -128,7 +128,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="StateNoneMusic" ID="{EED20672-F066-482A-9941-1B9E687FE388}">
+				<Event Name="StateNone" ID="{EED20672-F066-482A-9941-1B9E687FE388}">
 					<ChildrenList>
 						<Action Name="" ID="{DFC641EC-D92F-4698-A1BF-E0C2BC88A04F}" ShortID="245621074">
 							<PropertyList>

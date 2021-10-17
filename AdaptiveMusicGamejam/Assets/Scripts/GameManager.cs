@@ -7,10 +7,16 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [SerializeField] TowerController tower;
+
+    [Header("Game Over Prefab Rain")]
+    [SerializeField] GameObject trueEndingRainPrefab;
+    [SerializeField] GameObject regularEndingRainPrefab;
+    [SerializeField] GameObject badEndingRainPrefab;
+
     private bool towerLowered;
     internal int collectedCrystalCount;
     public const int CRYSTALS_NEEDED_TO_LOWER_THE_TOWER = 1;
-    public const int CRYSTALS_NEEDED_FOR_TRUE_ENDING = 16;
+    public const int CRYSTALS_NEEDED_FOR_TRUE_ENDING = 2;
 
     private void Awake()
     {
@@ -24,7 +30,20 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        UIController.Instance.InfoMessage("Activate 12 crystals to access the Tower.", 4);
+        UIController.Instance.InfoMessage($"Activate {CRYSTALS_NEEDED_TO_LOWER_THE_TOWER} crystals to access the Tower.", 4);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
+    }
+
+    private void QuitGame()
+    {
+        Application.Quit();
     }
 
     public void AwardCrystal(int count)
@@ -36,6 +55,91 @@ public class GameManager : MonoBehaviour
             towerLowered = true;
         }
 
+    }
+
+    public void TrueEnding() => StartCoroutine(TrueEndingSequence());
+    public void RegularEnding() => StartCoroutine(RegularEndingSequence());
+    public void BadEnding() => StartCoroutine(BadEndingSequence());
+
+
+    public IEnumerator TrueEndingSequence()
+    {
+        yield return new WaitForSeconds(5);
+
+        SpawnEndingPrefabRain(trueEndingRainPrefab);
+        UIController.Instance.InfoMessage("You win!", 3);
+        yield return new WaitForSeconds(3);
+
+        UIController.Instance.InfoMessage("True Ending", 3);
+        yield return new WaitForSeconds(3);
+
+
+        yield return new WaitForSeconds(10);
+        UIController.Instance.InfoMessage("Escape to exit", 5);
+    }
+
+    public IEnumerator RegularEndingSequence()
+    {
+        yield return new WaitForSeconds(5);
+
+        SpawnEndingPrefabRain(regularEndingRainPrefab);
+        UIController.Instance.InfoMessage("You win!", 3);
+        yield return new WaitForSeconds(3);
+
+        UIController.Instance.InfoMessage("Normal Ending", 3);
+        yield return new WaitForSeconds(3);
+
+
+        yield return new WaitForSeconds(10);
+        UIController.Instance.InfoMessage("Escape to exit", 5);
+    }
+
+    public IEnumerator BadEndingSequence()
+    {
+        yield return new WaitForSeconds(5);
+
+        SpawnEndingPrefabRain(badEndingRainPrefab);
+        UIController.Instance.InfoMessage("You win!", 3);
+        yield return new WaitForSeconds(3);
+
+        UIController.Instance.InfoMessage("Bad Ending", 3);
+        yield return new WaitForSeconds(3);
+
+
+        yield return new WaitForSeconds(10);
+        UIController.Instance.InfoMessage("Escape to exit", 5);
+    }
+
+
+
+    private void SpawnEndingPrefabRain(GameObject prefab)
+    {
+        int prefabAmount = 20;
+        Vector3[] pos = RandomRadialPositions(new Vector3(125, 200, 125), 20, 100, prefabAmount);
+
+        for (int i = 0; i < prefabAmount; i++)
+        {
+            Instantiate(prefab, pos[i], Random.rotation);
+        }
+    }
+
+    public static Vector3[] RandomRadialPositions(Vector3 center, float minDistance, float maxDistance, int pointCount)
+    {
+        Vector3[] points = new Vector3[pointCount];
+
+        float angleOffset = Random.Range(0, 360);
+        for (int i = 0; i < pointCount; i++)
+        {
+            Vector3 positionOffset = new Vector3(0, 0, Random.Range(minDistance, maxDistance));
+
+            float angle = (i * 360 / pointCount + angleOffset) % 360;
+
+            Vector3 pos = center + Quaternion.AngleAxis(angle, Vector3.up) * positionOffset;
+
+            points[i] = pos;
+        }
+
+        return points;
     }
 
 }

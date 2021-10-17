@@ -24,7 +24,7 @@ namespace AK
         static const AkUniqueID STATEDESERT = 813920379U;
         static const AkUniqueID STATEFOREST = 1615276403U;
         static const AkUniqueID STATEMEADOW = 1251028707U;
-        static const AkUniqueID STATENONEMUSIC = 918821131U;
+        static const AkUniqueID STATENONE = 3184095446U;
         static const AkUniqueID STATEWINTER = 1530808851U;
     } // namespace EVENTS
 

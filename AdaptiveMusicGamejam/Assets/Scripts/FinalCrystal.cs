@@ -1,32 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using AK.Wwise;
 public class FinalCrystal : Interactable
 {
+    [SerializeField] ParticleSystem DestroyParticles;
+
     public override void Interact()
     {
         int crystals = GameManager.Instance.collectedCrystalCount;
 
-        if (crystals < GameManager.CRYSTALS_NEEDED_TO_LOWER_THE_TOWER) BadEnding();
-        else if (crystals >= GameManager.CRYSTALS_NEEDED_FOR_TRUE_ENDING) TrueEnding();
-        else RegularEnding();
+        if (crystals < GameManager.CRYSTALS_NEEDED_TO_LOWER_THE_TOWER) StartBadEnding();
+        else if (crystals >= GameManager.CRYSTALS_NEEDED_FOR_TRUE_ENDING) StartTrueEnding();
+        else StartRegularEnding();
 
         gameObject.SetActive(false);
     }
 
-    public void RegularEnding()
+    private void DestroyCrystal()
     {
-        UIController.Instance.InfoMessage("You win! (Regular ending)", 5);
+        AkSoundEngine.PostEvent("CrystalExplosionSFX", gameObject);
+        Instantiate(DestroyParticles.gameObject, transform.position, Quaternion.identity);
+        gameObject.SetActive(false);
     }
 
-    public void TrueEnding()
+    private void StartTrueEnding()
     {
-        UIController.Instance.InfoMessage("You win! (True ending)", 5);
+        GameManager.Instance.TrueEnding();
+        DestroyCrystal();
     }
 
-    public void BadEnding()
+    private void StartRegularEnding()
     {
-        UIController.Instance.InfoMessage("You win! (Bad ending)", 5);
+        GameManager.Instance.RegularEnding();
+        DestroyCrystal();
     }
+
+    private void StartBadEnding()
+    {
+        GameManager.Instance.BadEnding();
+        DestroyCrystal();
+    }
+
 }

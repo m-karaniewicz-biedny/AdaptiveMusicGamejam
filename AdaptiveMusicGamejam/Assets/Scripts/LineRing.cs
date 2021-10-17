@@ -23,7 +23,7 @@ public class LineRing : MonoBehaviour
         {
             float angle = i * 360 / pointCount;
 
-            Vector3 pos = transform.position + Quaternion.AngleAxis(angle, Vector3.up) * offset;
+            Vector3 pos = Quaternion.AngleAxis(angle, Vector3.up) * offset;
 
             points[i] = pos;
         }

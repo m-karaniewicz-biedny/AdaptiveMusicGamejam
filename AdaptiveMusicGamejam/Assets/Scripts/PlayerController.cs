@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Movement Settings")]
     [SerializeField] float gravity = -15;
+    [SerializeField] float maxFallSpeed = 25f;
     [SerializeField] float walkSpeed = 6;
     [SerializeField] float runSpeed = 10;
     [SerializeField] float slopeSlideSpeed = 15f;
@@ -98,7 +99,7 @@ public class PlayerController : MonoBehaviour
 
 
         //Apply gravity
-        velocity.y += gravity * Time.deltaTime;
+        if (velocity.y < maxFallSpeed) velocity.y += gravity * Time.deltaTime;
 
         if (!isSliding)
         {
@@ -107,8 +108,8 @@ public class PlayerController : MonoBehaviour
             velocity.z = horizontalMovement.z;
 
             //FIX
-            if(cc.isGrounded) velocity.y = -10;
-            
+            if (cc.isGrounded) velocity.y = -10;
+
             //Reset Y velocity
             //if (cc.isGrounded && velocity.y < -1) velocity.y = 0;
 
