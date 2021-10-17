@@ -318,6 +318,8 @@ GameObject:
   - component: {fileID: 5745311639297237606}
   - component: {fileID: 7092527481917315166}
   - component: {fileID: 5745311639297237605}
+  - component: {fileID: 834710223}
+  - component: {fileID: 834710227}
   m_Layer: 0
   m_Name: FPPlayer
   m_TagString: Untagged
@@ -388,8 +390,8 @@ MonoBehaviour:
   willSlideOnSlopes: 1
   rotateBodyHorizontally: 1
   gravity: -30
-  walkSpeed: 6
-  runSpeed: 10
+  walkSpeed: 5
+  runSpeed: 8.5
   slopeSlideSpeed: 30
   jumpHeight: 3
   mouseSensitivity: 100
@@ -400,3 +402,37 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 192
+--- !u!114 &834710223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5745311639297237608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afce97611c56074eac61fc97961f7f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &834710227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5745311639297237608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438a8a31e2d20c145bddd3e64ee7dd33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1

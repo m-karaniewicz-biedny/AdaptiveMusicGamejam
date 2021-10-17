@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,11 +16,103 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2394215222">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1821545830">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1950989119" Name="DesertSteps" ObjectPath="\Events\Default Work Unit\DesertSteps" DurationType="OneShot" DurationMin="0.353264" DurationMax="0.361521">
+					<IncludedMemoryFiles>
+						<File Id="396078844" Language="SFX">
+							<ShortName>FDESERT5.wav</ShortName>
+							<Path>SFX\FDESERT5_10C4C929.wem</Path>
+						</File>
+						<File Id="404011161" Language="SFX">
+							<ShortName>FDesert1.wav</ShortName>
+							<Path>SFX\FDesert1_10C4C929.wem</Path>
+						</File>
+						<File Id="589894994" Language="SFX">
+							<ShortName>FDesert6.wav</ShortName>
+							<Path>SFX\FDesert6_10C4C929.wem</Path>
+						</File>
+						<File Id="648865380" Language="SFX">
+							<ShortName>FDesert4.wav</ShortName>
+							<Path>SFX\FDesert4_10C4C929.wem</Path>
+						</File>
+						<File Id="759175134" Language="SFX">
+							<ShortName>FDesert3.wav</ShortName>
+							<Path>SFX\FDesert3_10C4C929.wem</Path>
+						</File>
+						<File Id="801854314" Language="SFX">
+							<ShortName>FDesert2.wav</ShortName>
+							<Path>SFX\FDesert2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4099262219" Name="ForestSteps" ObjectPath="\Events\Default Work Unit\ForestSteps" DurationType="OneShot" DurationMin="0.546417" DurationMax="0.546417">
+					<IncludedMemoryFiles>
+						<File Id="104906515" Language="SFX">
+							<ShortName>FForest3.wav</ShortName>
+							<Path>SFX\FForest3_10C4C929.wem</Path>
+						</File>
+						<File Id="665743101" Language="SFX">
+							<ShortName>FForest4.wav</ShortName>
+							<Path>SFX\FForest4_10C4C929.wem</Path>
+						</File>
+						<File Id="669228765" Language="SFX">
+							<ShortName>FForest2.wav</ShortName>
+							<Path>SFX\FForest2_10C4C929.wem</Path>
+						</File>
+						<File Id="802607536" Language="SFX">
+							<ShortName>FForest1.wav</ShortName>
+							<Path>SFX\FForest1_10C4C929.wem</Path>
+						</File>
+						<File Id="802839456" Language="SFX">
+							<ShortName>FForest6.wav</ShortName>
+							<Path>SFX\FForest6_10C4C929.wem</Path>
+						</File>
+						<File Id="805572129" Language="SFX">
+							<ShortName>FForest5.wav</ShortName>
+							<Path>SFX\FForest5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2571390835" Name="MeadowSteps" ObjectPath="\Events\Default Work Unit\MeadowSteps" DurationType="OneShot" DurationMin="0.545854" DurationMax="0.545854">
+					<IncludedMemoryFiles>
+						<File Id="29151242" Language="SFX">
+							<ShortName>FGrass2.wav</ShortName>
+							<Path>SFX\FGrass2_10C4C929.wem</Path>
+						</File>
+						<File Id="131253270" Language="SFX">
+							<ShortName>FGrass5.wav</ShortName>
+							<Path>SFX\FGrass5_10C4C929.wem</Path>
+						</File>
+						<File Id="162907209" Language="SFX">
+							<ShortName>FGrass3.wav</ShortName>
+							<Path>SFX\FGrass3_10C4C929.wem</Path>
+						</File>
+						<File Id="374078205" Language="SFX">
+							<ShortName>FGrass4.wav</ShortName>
+							<Path>SFX\FGrass4_10C4C929.wem</Path>
+						</File>
+						<File Id="486330512" Language="SFX">
+							<ShortName>FGrass7.wav</ShortName>
+							<Path>SFX\FGrass7_10C4C929.wem</Path>
+						</File>
+						<File Id="568393560" Language="SFX">
+							<ShortName>FGrass6.wav</ShortName>
+							<Path>SFX\FGrass6_10C4C929.wem</Path>
+						</File>
+						<File Id="597353502" Language="SFX">
+							<ShortName>FGrass1.wav</ShortName>
+							<Path>SFX\FGrass1_10C4C929.wem</Path>
+						</File>
+						<File Id="914394780" Language="SFX">
+							<ShortName>FGrass8.wav</ShortName>
+							<Path>SFX\FGrass8_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="108117535" Language="SFX">
@@ -71,6 +163,38 @@
 					<ActionTrigger>
 						<ActionTriggerEntry Id="2011614757" Name="MusicChanges" ObjectPath="\Triggers\Default Work Unit\MusicChanges"/>
 					</ActionTrigger>
+				</Event>
+				<Event Id="4085003741" Name="SnowSteps" ObjectPath="\Events\Default Work Unit\SnowSteps" DurationType="OneShot" DurationMin="0.545521" DurationMax="0.545521">
+					<IncludedMemoryFiles>
+						<File Id="163998124" Language="SFX">
+							<ShortName>FSnow7.wav</ShortName>
+							<Path>SFX\FSnow7_10C4C929.wem</Path>
+						</File>
+						<File Id="213304363" Language="SFX">
+							<ShortName>FSnow1.wav</ShortName>
+							<Path>SFX\FSnow1_10C4C929.wem</Path>
+						</File>
+						<File Id="354937224" Language="SFX">
+							<ShortName>FSnow5.wav</ShortName>
+							<Path>SFX\FSnow5_10C4C929.wem</Path>
+						</File>
+						<File Id="592622913" Language="SFX">
+							<ShortName>FSnow6.wav</ShortName>
+							<Path>SFX\FSnow6_10C4C929.wem</Path>
+						</File>
+						<File Id="612908875" Language="SFX">
+							<ShortName>FSnow3.wav</ShortName>
+							<Path>SFX\FSnow3_10C4C929.wem</Path>
+						</File>
+						<File Id="665721161" Language="SFX">
+							<ShortName>FSnow2.wav</ShortName>
+							<Path>SFX\FSnow2_10C4C929.wem</Path>
+						</File>
+						<File Id="918679385" Language="SFX">
+							<ShortName>FSnow4.wav</ShortName>
+							<Path>SFX\FSnow4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="813920379" Name="StateDesert" ObjectPath="\Events\Default Work Unit\StateDesert" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>

@@ -5,12 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{DC2CB0AA-8DB3-4765-9E88-15C2D8673FDC}">
 					<ObjectInclusionList>
+						<ObjectRef Name="ForestSteps" ID="{20C671E9-DA78-4038-82AB-8AFCD15648D3}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SnowSteps" ID="{ED1D5A91-130A-4078-BE1E-511EAB861E66}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MeadowSteps" ID="{B49D7943-4AE3-449B-B191-E31BBF9B5B5F}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateMeadow" ID="{AB70B44A-CE83-46C3-A96E-29B9C320E5FB}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateWinter" ID="{9850F5FF-FB66-4875-B925-5AEDE281EB89}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateForest" ID="{A540B53F-388E-4905-97F1-437FC4953DA4}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateDesert" ID="{BB7AB5E9-8C81-4BC6-877C-FF7F5E0BF15B}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayStinger" ID="{B3C7763B-3ADC-4D27-A3D3-18D78A69DE3A}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{E1D4DCB7-6C92-4EDD-A95F-C3161F4B73F4}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DesertSteps" ID="{17A597F0-316E-4F44-A233-5C9CCC044B24}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

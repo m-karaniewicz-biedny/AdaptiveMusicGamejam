@@ -13,8 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DESERTSTEPS = 1950989119U;
+        static const AkUniqueID FORESTSTEPS = 4099262219U;
+        static const AkUniqueID MEADOWSTEPS = 2571390835U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID PLAYSTINGER = 2407620891U;
+        static const AkUniqueID SNOWSTEPS = 4085003741U;
         static const AkUniqueID STATEDESERT = 813920379U;
         static const AkUniqueID STATEFOREST = 1615276403U;
         static const AkUniqueID STATEMEADOW = 1251028707U;

@@ -3,20 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using AK.Wwise;
 
+public enum Region
+{
+    plains,
+    desert,
+    forest,
+    mountains,
+}
+
 public class PlayerPositionController : MonoBehaviour
 {
-    private enum Region
-    {
-        plains,
-        desert,
-        forest,
-        mountains,
-    }
+
 
     Vector3 mapCenter = new Vector3(125, 100, 125);
     float wrapPositionAltitude = -100;
 
-    Region currentRegion;
+    internal Region currentRegion;
     Region lastFrameRegion;
 
     private void Start()

@@ -3,8 +3,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	1251028707	StateMeadow			\Default Work Unit\StateMeadow	
 	1530808851	StateWinter			\Default Work Unit\StateWinter	
 	1615276403	StateForest			\Default Work Unit\StateForest	
+	1950989119	DesertSteps			\Default Work Unit\DesertSteps	
 	2407620891	PlayStinger			\Default Work Unit\PlayStinger	
+	2571390835	MeadowSteps			\Default Work Unit\MeadowSteps	
 	3991942870	Music			\Default Work Unit\Music	
+	4085003741	SnowSteps			\Default Work Unit\SnowSteps	
+	4099262219	ForestSteps			\Default Work Unit\ForestSteps	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	3103015060	MusicStates			\Default Work Unit\MusicStates	
@@ -20,9 +24,36 @@ Trigger	ID	Name			Wwise Object Path	Notes
 	2011614757	MusicChanges			\Default Work Unit\MusicChanges	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	108117535	Winter	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Winter_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\WinterPlaylist\Winter\Winter		20275264
-	213270319	Meadow	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Meadow_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\MeadowPlaylist\Meadow\Meadow		20275264
-	219787393	Cymatics - Crystal Impact	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Cymatics - Crystal Impact_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Crystal Impact\Cymatics - Crystal Impact		1039344
-	520808378	AutumnForest	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\AutumnForest_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\ForestPlaylist\Forest\AutumnForest		20275264
-	696987774	Desert2	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Desert2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\DesertPlaylist\Desert2\Desert2		20275264
+	29151242	FGrass2	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass2		104868
+	104906515	FForest3	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FForest3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestFootstepsContainer\FForest3		104976
+	108117535	Winter	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Winter_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\WinterPlaylist\Winter\Winter		20275264
+	131253270	FGrass5	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass5		104868
+	162907209	FGrass3	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass3		104868
+	163998124	FSnow7	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FSnow7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinterFootstepsContainer\FSnow7		104804
+	213270319	Meadow	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Meadow_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\MeadowPlaylist\Meadow\Meadow		20275264
+	213304363	FSnow1	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FSnow1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinterFootstepsContainer\FSnow1		104804
+	219787393	Cymatics - Crystal Impact	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Cymatics - Crystal Impact_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Crystal Impact\Cymatics - Crystal Impact		1039344
+	354937224	FSnow5	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FSnow5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinterFootstepsContainer\FSnow5		104804
+	374078205	FGrass4	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass4		104868
+	396078844	FDESERT5	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FDESERT5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertFootstepsContainer\FDESERT5		69476
+	404011161	FDesert1	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FDesert1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertFootstepsContainer\FDesert1		69476
+	486330512	FGrass7	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass7		104868
+	520808378	AutumnForest	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\AutumnForest_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\ForestPlaylist\Forest\AutumnForest		20275264
+	568393560	FGrass6	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass6		104868
+	589894994	FDesert6	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FDesert6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertFootstepsContainer\FDesert6		69476
+	592622913	FSnow6	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FSnow6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinterFootstepsContainer\FSnow6		104804
+	597353502	FGrass1	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass1		104868
+	612908875	FSnow3	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FSnow3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinterFootstepsContainer\FSnow3		104804
+	648865380	FDesert4	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FDesert4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertFootstepsContainer\FDesert4		69476
+	665721161	FSnow2	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FSnow2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinterFootstepsContainer\FSnow2		104804
+	665743101	FForest4	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FForest4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestFootstepsContainer\FForest4		104976
+	669228765	FForest2	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FForest2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestFootstepsContainer\FForest2		104976
+	696987774	Desert2	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\Desert2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\DesertPlaylist\Desert2\Desert2		20275264
+	759175134	FDesert3	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FDesert3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertFootstepsContainer\FDesert3		69476
+	801854314	FDesert2	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FDesert2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertFootstepsContainer\FDesert2		69476
+	802607536	FForest1	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FForest1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestFootstepsContainer\FForest1		104976
+	802839456	FForest6	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FForest6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestFootstepsContainer\FForest6		104976
+	805572129	FForest5	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FForest5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForestFootstepsContainer\FForest5		104976
+	914394780	FGrass8	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FGrass8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeadowFootstepsContainer\FGrass8		104868
+	918679385	FSnow4	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\SFX\FSnow4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinterFootstepsContainer\FSnow4		104804
 

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8898c604cb996f4c9f825bcc61b9e48b
     GuidInternal: 
-    m_lastTime: -8585671977951387526
+    m_lastTime: -8585671712071759733
     List:
     - name: Main
       guid: aab02cdcb38d65479e8815c2d8673fdc
@@ -94,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 208c3b533470594e88fe35946339981a
     GuidInternal: 
-    m_lastTime: -8585671990864014701
+    m_lastTime: -8585671722359633829
     List:
+    - name: DesertSteps
+      guid: f097a5176e31444fa2335c9ccc044b24
+      id: 1950989119
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: DesertSteps
+        ObjectType: 3
+        guid: f097a5176e31444fa2335c9ccc044b24
+      Path: Events\Default Work Unit\DesertSteps
+      maxAttenuation: 0
+      maxDuration: 0.361521
+      minDuration: 0.353264
+    - name: ForestSteps
+      guid: e971c62078da384082ab8afcd15648d3
+      id: 4099262219
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: ForestSteps
+        ObjectType: 3
+        guid: e971c62078da384082ab8afcd15648d3
+      Path: Events\Default Work Unit\ForestSteps
+      maxAttenuation: 0
+      maxDuration: 0.546417
+      minDuration: 0.546417
+    - name: MeadowSteps
+      guid: 43799db4e34a9b44b191e31bbf9b5b5f
+      id: 2571390835
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: MeadowSteps
+        ObjectType: 3
+        guid: 43799db4e34a9b44b191e31bbf9b5b5f
+      Path: Events\Default Work Unit\MeadowSteps
+      maxAttenuation: 0
+      maxDuration: 0.545854
+      minDuration: 0.545854
     - name: Music
       guid: b7dcd4e1926cdd4ea95fc3161f4b73f4
       id: 3991942870
@@ -130,6 +181,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: SnowSteps
+      guid: 915a1ded0a137840be1e511eab861e66
+      id: 4085003741
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: SnowSteps
+        ObjectType: 3
+        guid: 915a1ded0a137840be1e511eab861e66
+      Path: Events\Default Work Unit\SnowSteps
+      maxAttenuation: 0
+      maxDuration: 0.545521
+      minDuration: 0.545521
     - name: StateDesert
       guid: e9b57abb818cc64b877cff7f5e0bf15b
       id: 813920379

@@ -106,10 +106,11 @@ public class PlayerController : MonoBehaviour
             velocity.x = horizontalMovement.x;
             velocity.z = horizontalMovement.z;
 
-
-
+            //FIX
+            if(cc.isGrounded) velocity.y = -10;
+            
             //Reset Y velocity
-            if (cc.isGrounded && velocity.y < -1) velocity.y = 0;
+            //if (cc.isGrounded && velocity.y < -1) velocity.y = 0;
 
             //Jump
             if (cc.isGrounded && inputJump && !isSliding) velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
