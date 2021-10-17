@@ -76,9 +76,11 @@
 																			<Local>
 																				<MusicClip Name="Desert2" ID="{03BC2F29-0BB3-4A96-BBDD-B7603838F69E}">
 																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="72.2280011810963"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="21.4724642809888"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Desert2" ID="{F83D052B-683B-4A0A-A05B-E0877AA7BD90}"/>
 																					<PropertyCurveList>
@@ -89,7 +91,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -108,7 +110,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -127,7 +129,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -156,11 +158,7 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{1BA4B832-AD06-419B-BE9D-2D96EBB912A7}">
-														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="1600"/>
-														</PropertyList>
-													</MusicCue>
+													<MusicCue Name="Entry Cue" ID="{1BA4B832-AD06-419B-BE9D-2D96EBB912A7}"/>
 												</Local>
 											</Reference>
 											<Reference>
@@ -168,7 +166,7 @@
 													<MusicCue Name="Exit Cue" ID="{B20F67C1-5D2F-4D44-BE9E-E49A824D832E}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="104000"/>
+															<Property Name="TimeMs" Type="Real64" Value="102400"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -286,9 +284,11 @@
 																			<Local>
 																				<MusicClip Name="AutumnForest" ID="{559E62EB-D1FC-4D2F-A2BF-27CEFF7407C9}">
 																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="1556.75675675676"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="90.9389577032807"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="15.5844155844243"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-1556.75675675676"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="AutumnForest" ID="{0D831C35-668B-4764-89A1-73A6F87CB031}"/>
 																					<PropertyCurveList>
@@ -299,7 +299,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.55676</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -318,7 +318,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.55676</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -337,7 +337,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.55676</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -366,11 +366,7 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{7DCEC926-7625-455A-BD3B-207527EEBDE0}">
-														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="1556.75675675676"/>
-														</PropertyList>
-													</MusicCue>
+													<MusicCue Name="Entry Cue" ID="{7DCEC926-7625-455A-BD3B-207527EEBDE0}"/>
 												</Local>
 											</Reference>
 											<Reference>
@@ -496,9 +492,11 @@
 																			<Local>
 																				<MusicClip Name="Meadow" ID="{7AC89D3B-FB83-4E5C-89AB-7369E325635E}">
 																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="105600"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="43.5401269041677"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Meadow" ID="{1349798F-660C-433D-A8C6-A903E104758C}"/>
 																					<PropertyCurveList>
@@ -509,7 +507,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -528,7 +526,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -547,7 +545,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -576,11 +574,7 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{8FEAF4AA-D3A4-467D-AA72-A7C8968FE0F2}">
-														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="1600"/>
-														</PropertyList>
-													</MusicCue>
+													<MusicCue Name="Entry Cue" ID="{8FEAF4AA-D3A4-467D-AA72-A7C8968FE0F2}"/>
 												</Local>
 											</Reference>
 											<Reference>
@@ -698,9 +692,11 @@
 																			<Local>
 																				<MusicClip Name="Winter" ID="{0F0A3CEB-9C55-43E9-B067-4629B36BF97F}">
 																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="46.0281341558348"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="23.0140670779219"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Winter" ID="{DCC5C364-180E-4EDA-99D3-8478323070FA}"/>
 																					<PropertyCurveList>
@@ -711,7 +707,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -730,7 +726,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -749,7 +745,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>0</XPos>
+																										<XPos>1.6</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -778,11 +774,7 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{4AA2BFFB-4B28-4111-9CEE-B6E8A26C7329}">
-														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="1600"/>
-														</PropertyList>
-													</MusicCue>
+													<MusicCue Name="Entry Cue" ID="{4AA2BFFB-4B28-4111-9CEE-B6E8A26C7329}"/>
 												</Local>
 											</Reference>
 											<Reference>

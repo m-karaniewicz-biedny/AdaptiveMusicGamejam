@@ -3,7 +3,22 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="ciezko to nazwać czymkolwiek" ID="{0434005C-9478-4A47-9933-4298995D07E3}" ShortID="808612214">
+				<RandomSequenceContainer Name="DesertFootstepsContainer" ID="{D4333CA4-5484-40B3-82A4-D10A66C256C8}" ShortID="535170631">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A8B4EACC-D373-43C2-A33F-4A7380312E31}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="40"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
@@ -13,19 +28,678 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ciezko to nazwać czymkolwiek" ID="{2787423A-0DE4-4E6F-8787-833B59FD3495}">
-							<Language>SFX</Language>
-							<AudioFile>ciezko to nazwać czymkolwiek.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="739948149"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="FDesert1" ID="{36FE4088-C971-4900-9527-3036CB27837A}" ShortID="779313954">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FDesert1" ID="{605B60D1-4E77-4696-B8F8-2630D2E9BCC7}">
+									<Language>SFX</Language>
+									<AudioFile>FDesert1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="404011161"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FDesert1" ID="{605B60D1-4E77-4696-B8F8-2630D2E9BCC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FDesert2" ID="{1D79CF38-EC90-4AA3-B9C4-D9EB37ECDCE5}" ShortID="674111986">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FDesert2" ID="{7CFE8D21-7916-4B00-B452-519340245F3B}">
+									<Language>SFX</Language>
+									<AudioFile>FDesert2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="801854314"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FDesert2" ID="{7CFE8D21-7916-4B00-B452-519340245F3B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FDesert3" ID="{DFF5FD73-811F-42AD-AEE8-74780C950771}" ShortID="239920765">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FDesert3" ID="{F26AC64E-53B7-41CD-A8A9-92DADFBCD22E}">
+									<Language>SFX</Language>
+									<AudioFile>FDesert3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="759175134"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FDesert3" ID="{F26AC64E-53B7-41CD-A8A9-92DADFBCD22E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FDesert4" ID="{5206083F-CF2B-44A4-972C-47DC38C32977}" ShortID="926073390">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FDesert4" ID="{C9FD6F81-9028-4EBA-AE61-698217C3DEB8}">
+									<Language>SFX</Language>
+									<AudioFile>FDesert4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="648865380"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FDesert4" ID="{C9FD6F81-9028-4EBA-AE61-698217C3DEB8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FDESERT5" ID="{C644EF5A-919E-451B-9B5A-BBEFD48E7D52}" ShortID="108851478">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FDESERT5" ID="{C036FB0A-0BE9-42C6-9510-B7EFAB9A0DFF}">
+									<Language>SFX</Language>
+									<AudioFile>FDESERT5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="396078844"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FDESERT5" ID="{C036FB0A-0BE9-42C6-9510-B7EFAB9A0DFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FDesert6" ID="{962EBDCC-D6BC-4571-B89E-D0C619BAA91D}" ShortID="171056944">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FDesert6" ID="{798B4259-D820-413C-B902-8DEA085C88D1}">
+									<Language>SFX</Language>
+									<AudioFile>FDesert6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="589894994"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FDesert6" ID="{798B4259-D820-413C-B902-8DEA085C88D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="ciezko to nazwać czymkolwiek" ID="{2787423A-0DE4-4E6F-8787-833B59FD3495}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="MeadowFootstepsContainer" ID="{F7A594E7-D9A3-47D3-9D88-901B60330132}" ShortID="1048364804">
+					<PropertyList>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FGrass1" ID="{EAEF1A10-8F55-4C7F-9331-486B8455528A}" ShortID="374588167">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass1" ID="{794B496E-2906-4B5D-AC80-77AB3A41B717}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="597353502"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass1" ID="{794B496E-2906-4B5D-AC80-77AB3A41B717}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FGrass2" ID="{903CF575-4089-4BB9-A939-698C6B8A3355}" ShortID="842908636">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass2" ID="{A5798C64-6746-45D8-830C-BFBDEA3E5EC6}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="29151242"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass2" ID="{A5798C64-6746-45D8-830C-BFBDEA3E5EC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FGrass3" ID="{06F7B315-8EED-4F86-B31C-4CEEEF56DA3E}" ShortID="1051411130">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass3" ID="{F971CF99-03A7-448E-9938-FB1822C18FC1}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="162907209"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass3" ID="{F971CF99-03A7-448E-9938-FB1822C18FC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FGrass4" ID="{9E93DEFE-97C9-459E-89AD-C766139F41EE}" ShortID="449419277">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass4" ID="{F7876D41-A37B-4E03-BAC5-50731C17C805}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="374078205"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass4" ID="{F7876D41-A37B-4E03-BAC5-50731C17C805}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FGrass5" ID="{B6848A5E-FE1A-4BD8-84BE-F6D164E013BA}" ShortID="306906880">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass5" ID="{E6DFE56B-195F-4A1C-B1B2-4999147C0F9C}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="131253270"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass5" ID="{E6DFE56B-195F-4A1C-B1B2-4999147C0F9C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FGrass6" ID="{A6295858-FF0F-4AE5-BCD4-A1801D161FB1}" ShortID="17781730">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass6" ID="{60FC0FDA-9F3D-4F6B-A2B1-D23C683103A7}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="568393560"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass6" ID="{60FC0FDA-9F3D-4F6B-A2B1-D23C683103A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FGrass7" ID="{98DFBBF3-42B9-43DA-A8FE-2437939DE4F1}" ShortID="760120752">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass7" ID="{A41E97A0-25DE-4289-81A6-55C8353D3489}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="486330512"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass7" ID="{A41E97A0-25DE-4289-81A6-55C8353D3489}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FGrass8" ID="{52B20A74-6044-4683-B612-B80E8E6B016A}" ShortID="713349536">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FGrass8" ID="{A47A83EC-1702-4D87-9E55-80BB72372FE4}">
+									<Language>SFX</Language>
+									<AudioFile>FGrass8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="914394780"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FGrass8" ID="{A47A83EC-1702-4D87-9E55-80BB72372FE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="WinterFootstepsContainer" ID="{E7DAC806-828E-4B74-9193-0E44F4AD46D0}" ShortID="558761751">
+					<PropertyList>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FSnow1" ID="{138C2600-C044-4004-8115-6E118A31A249}" ShortID="657741495">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FSnow1" ID="{8963D899-0C23-4B13-BD29-CE622D119DA2}">
+									<Language>SFX</Language>
+									<AudioFile>FSnow1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="213304363"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FSnow1" ID="{8963D899-0C23-4B13-BD29-CE622D119DA2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FSnow2" ID="{92A16CAF-9048-4755-8270-80071B3382C0}" ShortID="675847338">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FSnow2" ID="{972954B2-259B-4982-96B7-551E969EEBA9}">
+									<Language>SFX</Language>
+									<AudioFile>FSnow2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="665721161"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FSnow2" ID="{972954B2-259B-4982-96B7-551E969EEBA9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FSnow3" ID="{6141649E-F90A-4B94-8557-5494F9466218}" ShortID="72183233">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FSnow3" ID="{A27F6B3B-D6D9-4D13-AE65-CC086D162FFF}">
+									<Language>SFX</Language>
+									<AudioFile>FSnow3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="612908875"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FSnow3" ID="{A27F6B3B-D6D9-4D13-AE65-CC086D162FFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FSnow4" ID="{4312012D-0A8B-4146-B040-B717882B5544}" ShortID="106778160">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FSnow4" ID="{5A13B134-2F60-4E66-85AA-6F32DE0471B6}">
+									<Language>SFX</Language>
+									<AudioFile>FSnow4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="918679385"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FSnow4" ID="{5A13B134-2F60-4E66-85AA-6F32DE0471B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FSnow5" ID="{1A0F7D19-3219-4B62-936E-74926E977C1C}" ShortID="853604468">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FSnow5" ID="{3A32BCF0-59DF-4503-A37A-BD8EEFD460D3}">
+									<Language>SFX</Language>
+									<AudioFile>FSnow5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="354937224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FSnow5" ID="{3A32BCF0-59DF-4503-A37A-BD8EEFD460D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FSnow6" ID="{09279ABB-8483-49BA-A161-128A9D9BE6D8}" ShortID="874131514">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FSnow6" ID="{CA231FB2-5485-470E-B38A-F89849F91C57}">
+									<Language>SFX</Language>
+									<AudioFile>FSnow6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="592622913"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FSnow6" ID="{CA231FB2-5485-470E-B38A-F89849F91C57}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FSnow7" ID="{54E6F2A7-A2B9-43F9-BB29-9C2FBA486FC7}" ShortID="109760885">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FSnow7" ID="{B79F697E-8B62-481A-A712-845BE627D7C0}">
+									<Language>SFX</Language>
+									<AudioFile>FSnow7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="163998124"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FSnow7" ID="{B79F697E-8B62-481A-A712-845BE627D7C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="ForestFootstepsContainer" ID="{01CC11EE-6AD8-4E83-B333-7181C0487EE5}" ShortID="979926088">
+					<PropertyList>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FForest1" ID="{C31EA930-4CB6-42C4-8B02-D6951FF3CDC5}" ShortID="1001204099">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FForest1" ID="{7FB3AE92-7D7A-4071-8CFD-E97D7389DE6B}">
+									<Language>SFX</Language>
+									<AudioFile>FForest1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="802607536"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FForest1" ID="{7FB3AE92-7D7A-4071-8CFD-E97D7389DE6B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FForest2" ID="{DC99C5DE-4139-471F-ACCF-31F9A0C745F7}" ShortID="213248284">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FForest2" ID="{3B7146F7-252E-49C4-9BB4-FCECA185C73B}">
+									<Language>SFX</Language>
+									<AudioFile>FForest2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="669228765"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FForest2" ID="{3B7146F7-252E-49C4-9BB4-FCECA185C73B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FForest3" ID="{2F1B06A2-C40B-41A5-9815-1A65A070E704}" ShortID="430558002">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FForest3" ID="{E90A2E70-4E12-4197-A672-922AB9CC2B78}">
+									<Language>SFX</Language>
+									<AudioFile>FForest3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="104906515"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FForest3" ID="{E90A2E70-4E12-4197-A672-922AB9CC2B78}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FForest4" ID="{2E3746A3-AD94-44C3-8293-D764F1B49C43}" ShortID="577637764">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FForest4" ID="{FB749BD1-902D-412F-B838-661DC46C307E}">
+									<Language>SFX</Language>
+									<AudioFile>FForest4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="665743101"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FForest4" ID="{FB749BD1-902D-412F-B838-661DC46C307E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FForest5" ID="{9D54C7C6-CAC6-47D4-B444-68090D26D441}" ShortID="519232423">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FForest5" ID="{B3D53676-D461-44D3-9AA4-E3257FFF42DC}">
+									<Language>SFX</Language>
+									<AudioFile>FForest5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="805572129"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FForest5" ID="{B3D53676-D461-44D3-9AA4-E3257FFF42DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FForest6" ID="{E7ED6EFC-2A07-4205-B3BA-ECAE2F2B5FAC}" ShortID="646602505">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FForest6" ID="{D906CCA5-4F04-4087-B815-76B0C25FC2CD}">
+									<Language>SFX</Language>
+									<AudioFile>FForest6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="802839456"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="FForest6" ID="{D906CCA5-4F04-4087-B815-76B0C25FC2CD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

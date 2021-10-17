@@ -84,6 +84,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MeadowSteps" ID="{B49D7943-4AE3-449B-B191-E31BBF9B5B5F}">
+					<ChildrenList>
+						<Action Name="" ID="{68C59E66-33E3-4600-B44D-50672A60C2D0}" ShortID="679819178">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MeadowFootstepsContainer" ID="{F7A594E7-D9A3-47D3-9D88-901B60330132}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ForestSteps" ID="{20C671E9-DA78-4038-82AB-8AFCD15648D3}">
+					<ChildrenList>
+						<Action Name="" ID="{D85FAC65-CF70-4741-ADEA-B07F7426C070}" ShortID="246194650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ForestFootstepsContainer" ID="{01CC11EE-6AD8-4E83-B333-7181C0487EE5}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DesertSteps" ID="{17A597F0-316E-4F44-A233-5C9CCC044B24}">
+					<ChildrenList>
+						<Action Name="" ID="{04204C88-579A-41A5-BE15-D4F9E9A09F3F}" ShortID="87593728">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DesertFootstepsContainer" ID="{D4333CA4-5484-40B3-82A4-D10A66C256C8}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SnowSteps" ID="{ED1D5A91-130A-4078-BE1E-511EAB861E66}">
+					<ChildrenList>
+						<Action Name="" ID="{D1E8B8B3-7936-4BCA-AE03-842D5DBEEE55}" ShortID="241431982">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WinterFootstepsContainer" ID="{E7DAC806-828E-4B74-9193-0E44F4AD46D0}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
