@@ -12,6 +12,7 @@
 						<ObjectRef Name="StateNoneMusic" ID="{EED20672-F066-482A-9941-1B9E687FE388}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateWinter" ID="{9850F5FF-FB66-4875-B925-5AEDE281EB89}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateForest" ID="{A540B53F-388E-4905-97F1-437FC4953DA4}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CrystalPulse" ID="{2D51EDBB-1072-4AAF-808E-FCB14CA2FB9B}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrystalExplosionSFX" ID="{EB47938F-5338-4B2F-9605-C0E471959CA9}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateDesert" ID="{BB7AB5E9-8C81-4BC6-877C-FF7F5E0BF15B}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayStinger" ID="{B3C7763B-3ADC-4D27-A3D3-18D78A69DE3A}" WorkUnitID="{533B8C20-7034-4E59-88FE-35946339981A}" Origin="Manual" Filter="7"/>
