@@ -164,6 +164,53 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FinalCrystalPulse" ID="{B8EB5CB6-5092-43E6-9651-A47235457020}">
+					<ChildrenList>
+						<Action Name="" ID="{8F261E83-EF0D-4868-9F22-60E0D2C63713}" ShortID="314520072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FinalCrystalPulse" ID="{15E56FF7-669E-487C-BB65-6024D4F24E11}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TowerSteps" ID="{8640D5EE-2FA9-41EA-9734-F0E9BF23202F}">
+					<ChildrenList>
+						<Action Name="" ID="{5F4115CF-1E35-47FD-8B6A-8543307FABE6}" ShortID="747732718">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TowerFootstepsContainer" ID="{FF2ABD3A-778E-4426-B28F-FD8E05987110}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FinalCrystalExplosion" ID="{46BD5344-3F14-4B9D-B3A0-A9DE7846BDDC}">
+					<ChildrenList>
+						<Action Name="" ID="{DF1F08B9-B997-4406-A91C-6FE9D09344C6}" ShortID="467608264">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FinalCrystalExplosion" ID="{C6368C2B-9B41-4F1F-A993-CF6960DCB53B}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StateFinal" ID="{060D0D48-EB26-47D4-93B7-56372DE195E5}">
+					<ChildrenList>
+						<Action Name="" ID="{0B29EAE8-144C-4045-AACB-2A3DD5FCE42C}" ShortID="557434740">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="final" ID="{59E1FFC4-8684-4F8C-8194-A36DEE40A5F5}" WorkUnitID="{7AD43064-6335-4131-B9C7-A9459347826A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

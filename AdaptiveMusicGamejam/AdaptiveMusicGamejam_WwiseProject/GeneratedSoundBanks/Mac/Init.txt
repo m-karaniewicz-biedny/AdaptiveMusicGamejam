@@ -3,6 +3,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	491961918	forest	MusicStates			
+	565529991	final	MusicStates			
 	748895195	None	MusicStates			
 	1850388778	desert	MusicStates			
 	2435155766	meadow	MusicStates			

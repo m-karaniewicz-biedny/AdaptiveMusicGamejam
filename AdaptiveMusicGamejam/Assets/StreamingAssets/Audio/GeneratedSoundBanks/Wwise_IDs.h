@@ -16,16 +16,20 @@ namespace AK
         static const AkUniqueID CRYSTALEXPLOSIONSFX = 2495924695U;
         static const AkUniqueID CRYSTALPULSE = 283731020U;
         static const AkUniqueID DESERTSTEPS = 1950989119U;
+        static const AkUniqueID FINALCRYSTALEXPLOSION = 3067021836U;
+        static const AkUniqueID FINALCRYSTALPULSE = 1644206806U;
         static const AkUniqueID FORESTSTEPS = 4099262219U;
         static const AkUniqueID MEADOWSTEPS = 2571390835U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID PLAYSTINGER = 2407620891U;
         static const AkUniqueID SNOWSTEPS = 4085003741U;
         static const AkUniqueID STATEDESERT = 813920379U;
+        static const AkUniqueID STATEFINAL = 2892013384U;
         static const AkUniqueID STATEFOREST = 1615276403U;
         static const AkUniqueID STATEMEADOW = 1251028707U;
         static const AkUniqueID STATENONE = 3184095446U;
         static const AkUniqueID STATEWINTER = 1530808851U;
+        static const AkUniqueID TOWERSTEPS = 2628981325U;
     } // namespace EVENTS
 
     namespace STATES
@@ -37,6 +41,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID DESERT = 1850388778U;
+                static const AkUniqueID FINAL = 565529991U;
                 static const AkUniqueID FOREST = 491961918U;
                 static const AkUniqueID MEADOW = 2435155766U;
                 static const AkUniqueID NONE = 748895195U;

@@ -10,6 +10,7 @@
 						<State Name="desert" ID="{88BBE114-15F3-415B-97E2-153103FFB684}"/>
 						<State Name="forest" ID="{82771B0D-E4F5-49D1-90EE-1473E26F7460}"/>
 						<State Name="winter" ID="{31CEBD3E-5CC6-46B4-A7D3-74268D8F5123}"/>
+						<State Name="final" ID="{59E1FFC4-8684-4F8C-8194-A36DEE40A5F5}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
