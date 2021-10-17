@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,11 +16,19 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1821545830">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2737950761">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2495924695" Name="CrystalExplosionSFX" ObjectPath="\Events\Default Work Unit\CrystalExplosionSFX" DurationType="OneShot" DurationMin="5.006834" DurationMax="5.006834">
+					<IncludedMemoryFiles>
+						<File Id="79314810" Language="SFX">
+							<ShortName>CrystalExplosionSFX.wav</ShortName>
+							<Path>SFX\CrystalExplosionSFX_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1950989119" Name="DesertSteps" ObjectPath="\Events\Default Work Unit\DesertSteps" DurationType="OneShot" DurationMin="0.353264" DurationMax="0.361521">
 					<IncludedMemoryFiles>
 						<File Id="396078844" Language="SFX">
@@ -211,6 +219,11 @@
 						<ActionSetStateEntry Id="2435155766" Name="meadow" ObjectPath="\States\Default Work Unit\MusicStates\meadow"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="918821131" Name="StateNoneMusic" ObjectPath="\Events\Default Work Unit\StateNoneMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicStates\None"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="1530808851" Name="StateWinter" ObjectPath="\Events\Default Work Unit\StateWinter" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="2965343494" Name="winter" ObjectPath="\States\Default Work Unit\MusicStates\winter"/>
@@ -219,6 +232,9 @@
 			</IncludedEvents>
 			<StateGroups>
 				<StateGroup Id="491961918" Name="forest" ObjectPath="\States\Default Work Unit\MusicStates\forest" GUID="{82771B0D-E4F5-49D1-90EE-1473E26F7460}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicStates\None" GUID="{7C0BB504-11D0-458E-A0CD-1E0EEBB35D32}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1850388778" Name="desert" ObjectPath="\States\Default Work Unit\MusicStates\desert" GUID="{88BBE114-15F3-415B-97E2-153103FFB684}">

@@ -700,6 +700,29 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
+				<Sound Name="CrystalExplosionSFX" ID="{23BFF608-5593-4E3B-AB46-DB77604180BF}" ShortID="593535544">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CrystalExplosionSFX" ID="{49CD7284-766C-4070-8B2D-6EBF8070E3F1}">
+							<Language>SFX</Language>
+							<AudioFile>CrystalExplosionSFX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="79314810"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="CrystalExplosionSFX" ID="{49CD7284-766C-4070-8B2D-6EBF8070E3F1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

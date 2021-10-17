@@ -128,6 +128,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StateNoneMusic" ID="{EED20672-F066-482A-9941-1B9E687FE388}">
+					<ChildrenList>
+						<Action Name="" ID="{DFC641EC-D92F-4698-A1BF-E0C2BC88A04F}" ShortID="245621074">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{7C0BB504-11D0-458E-A0CD-1E0EEBB35D32}" WorkUnitID="{7AD43064-6335-4131-B9C7-A9459347826A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CrystalExplosionSFX" ID="{EB47938F-5338-4B2F-9605-C0E471959CA9}">
+					<ChildrenList>
+						<Action Name="" ID="{F4125006-6559-4A1C-B80F-9CDD2D35803C}" ShortID="132455915">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CrystalExplosionSFX" ID="{23BFF608-5593-4E3B-AB46-DB77604180BF}" WorkUnitID="{B998FFFC-7C69-48AD-B345-48FA9C6EC18D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
