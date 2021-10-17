@@ -66,7 +66,7 @@ public class FootstepsController : MonoBehaviour
                 }
             case Region.tower:
                 {
-                    AkSoundEngine.PostEvent("MeadowSteps", gameObject);
+                    AkSoundEngine.PostEvent("TowerSteps", gameObject);
                     break;
                 }
         }

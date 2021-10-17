@@ -7,7 +7,8 @@ public class UIController : MonoBehaviour
 {
     public static UIController Instance;
     //private const float INFO_MSG_DURATION_DEFAULT = 2f;
-    [SerializeField] private TextMeshProUGUI infoMessageTextBox;
+    [SerializeField] TextMeshProUGUI infoMessageTextBox;
+    [SerializeField] TextMeshProUGUI crystalCountTextbox;
 
     private Coroutine infoMessageCoroutine;
 
@@ -16,6 +17,11 @@ public class UIController : MonoBehaviour
         if (Instance != null) Destroy(this);
         else Instance = this;
         infoMessageTextBox.transform.parent.gameObject.SetActive(false);
+    }
+
+    public void UpdateCrystalCount(int currentCrystals, int requiredCrystals)
+    {
+        crystalCountTextbox.text = $"{currentCrystals}/{requiredCrystals}";
     }
 
     public void InfoMessage(string message, float duration)

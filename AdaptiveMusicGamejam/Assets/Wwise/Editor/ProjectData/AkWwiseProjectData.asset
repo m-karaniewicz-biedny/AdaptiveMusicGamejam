@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8898c604cb996f4c9f825bcc61b9e48b
     GuidInternal: 
-    m_lastTime: -8585671297725614499
+    m_lastTime: -8585671261934941471
     List:
     - name: Main
       guid: aab02cdcb38d65479e8815c2d8673fdc
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 208c3b533470594e88fe35946339981a
     GuidInternal: 
-    m_lastTime: -8585671297726049965
+    m_lastTime: -8585671261937010344
     List:
     - name: CrystalExplosionSFX
       guid: 8f9347eb38532f4b9605c0e471959ca9
@@ -147,6 +147,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.361521
       minDuration: 0.353264
+    - name: FinalCrystalExplosion
+      guid: 4453bd46143f9d4bb3a0a9de7846bddc
+      id: 3067021836
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: FinalCrystalExplosion
+        ObjectType: 3
+        guid: 4453bd46143f9d4bb3a0a9de7846bddc
+      Path: Events\Default Work Unit\FinalCrystalExplosion
+      maxAttenuation: 0
+      maxDuration: 5.006834
+      minDuration: 5.006834
+    - name: FinalCrystalPulse
+      guid: b65cebb89250e6439651a47235457020
+      id: 1644206806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: FinalCrystalPulse
+        ObjectType: 3
+        guid: b65cebb89250e6439651a47235457020
+      Path: Events\Default Work Unit\FinalCrystalPulse
+      maxAttenuation: 30
+      maxDuration: -1
+      minDuration: -1
     - name: ForestSteps
       guid: e971c62078da384082ab8afcd15648d3
       id: 4099262219
@@ -249,6 +283,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: StateFinal
+      guid: 480d0d0626ebd44793b756372de195e5
+      id: 2892013384
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: StateFinal
+        ObjectType: 3
+        guid: 480d0d0626ebd44793b756372de195e5
+      Path: Events\Default Work Unit\StateFinal
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: StateForest
       guid: 3fb540a58e38054997f1437fc4953da4
       id: 1615276403
@@ -317,6 +368,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: TowerSteps
+      guid: eed54086a92fea419734f0e9bf23202f
+      id: 2628981325
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 208c3b533470594e88fe35946339981a
+      - ElementName: TowerSteps
+        ObjectType: 3
+        guid: eed54086a92fea419734f0e9bf23202f
+      Path: Events\Default Work Unit\TowerSteps
+      maxAttenuation: 0
+      maxDuration: 0.25475
+      minDuration: 0.248932
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -343,7 +411,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 6430d47a35633141b9c7a9459347826a
     GuidInternal: 
-    m_lastTime: -8585672010021207013
+    m_lastTime: -8585671261934750187
     List:
     - name: MusicStates
       guid: af25e7f187ba444d90b16d6db0841a28
@@ -376,6 +444,22 @@ MonoBehaviour:
         - ElementName: desert
           ObjectType: 8
           guid: 14e1bb88f3155b4197e2153103ffb684
+      - name: final
+        guid: c4ffe15984868c4f8194a36dee40a5f5
+        id: 565529991
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6430d47a35633141b9c7a9459347826a
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: af25e7f187ba444d90b16d6db0841a28
+        - ElementName: final
+          ObjectType: 8
+          guid: c4ffe15984868c4f8194a36dee40a5f5
       - name: forest
         guid: 0d1b7782f5e4d14990ee1473e26f7460
         id: 491961918

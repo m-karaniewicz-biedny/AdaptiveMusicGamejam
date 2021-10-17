@@ -26,7 +26,7 @@ public class PlayerPositionController : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Music", gameObject);
 
-        SwitchToRegion(GetRegionOnPosition(transform.position));
+        ForceUpdateRegion();
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class PlayerPositionController : MonoBehaviour
         if (transform.position.y < -wrapPositionAltitude)
         {
             Vector3 target = GameManager.RandomRadialPositions(
-                new Vector3(125f, wrapPositionAltitude, 125f), 0, 50, 1)[0];
+                new Vector3(125f, wrapPositionAltitude, 125f), 0, 100, 1)[0];
 
             transform.position = target;
         }
@@ -53,7 +53,12 @@ public class PlayerPositionController : MonoBehaviour
 
         lastFrameRegion = currentRegion;
     }
-
+    
+    public void ForceUpdateRegion()
+    {
+        SwitchToRegion(GetRegionOnPosition(transform.position));
+    }
+    
     private void SwitchToRegion(Region region)
     {
         currentRegion = region;
@@ -86,7 +91,15 @@ public class PlayerPositionController : MonoBehaviour
                 }
             case Region.tower:
                 {
-                    AkSoundEngine.PostEvent("StateNone", gameObject);
+                    if(!GameManager.Instance.gameOver)
+                    {
+                        AkSoundEngine.PostEvent("StateNone", gameObject);
+                    }
+                    else
+                    {
+                        AkSoundEngine.PostEvent("StateFinal", gameObject);
+                    }
+                    
                     Debug.Log("Entering unspecified region.");
                     break;
                 }

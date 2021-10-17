@@ -326,6 +326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltip: Click to activate.
   DestroyParticlePrefab: {fileID: 6126977257757271097, guid: f14914fbf60c1e34aae6fd4959b52dd1, type: 3}
+  DestructionSoundPrefab: {fileID: 215543531838665440, guid: 240863606f9c73140967348fcd716ac8, type: 3}
 --- !u!114 &4804506773314735760
 MonoBehaviour:
   m_ObjectHideFlags: 0

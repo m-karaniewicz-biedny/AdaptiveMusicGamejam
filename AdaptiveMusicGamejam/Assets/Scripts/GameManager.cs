@@ -12,11 +12,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject trueEndingRainPrefab;
     [SerializeField] GameObject regularEndingRainPrefab;
     [SerializeField] GameObject badEndingRainPrefab;
+    
+    internal bool gameOver = false;
 
     private bool towerLowered;
     internal int collectedCrystalCount;
-    public const int CRYSTALS_NEEDED_TO_LOWER_THE_TOWER = 1;
-    public const int CRYSTALS_NEEDED_FOR_TRUE_ENDING = 2;
+    public const int CRYSTALS_NEEDED_TO_LOWER_THE_TOWER = 12;
+    public const int CRYSTALS_NEEDED_FOR_TRUE_ENDING = 16;
 
     private void Awake()
     {
@@ -30,6 +32,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        AwardCrystal(0);
         UIController.Instance.InfoMessage($"Activate {CRYSTALS_NEEDED_TO_LOWER_THE_TOWER} crystals to access the Tower.", 4);
     }
 
@@ -49,6 +52,7 @@ public class GameManager : MonoBehaviour
     public void AwardCrystal(int count)
     {
         collectedCrystalCount += count;
+        UIController.Instance.UpdateCrystalCount(collectedCrystalCount, CRYSTALS_NEEDED_TO_LOWER_THE_TOWER);
         if (collectedCrystalCount >= CRYSTALS_NEEDED_TO_LOWER_THE_TOWER && !towerLowered)
         {
             tower.LowerTower();
@@ -61,12 +65,18 @@ public class GameManager : MonoBehaviour
     public void RegularEnding() => StartCoroutine(RegularEndingSequence());
     public void BadEnding() => StartCoroutine(BadEndingSequence());
 
+    private void ResetMusic()
+    {
+        FindObjectOfType<PlayerPositionController>().ForceUpdateRegion();
+    }
 
     public IEnumerator TrueEndingSequence()
     {
         yield return new WaitForSeconds(5);
 
         SpawnEndingPrefabRain(trueEndingRainPrefab);
+        gameOver = true;
+        ResetMusic();
         UIController.Instance.InfoMessage("You win!", 3);
         yield return new WaitForSeconds(3);
 
@@ -83,6 +93,8 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(5);
 
         SpawnEndingPrefabRain(regularEndingRainPrefab);
+        gameOver = true;
+        ResetMusic();
         UIController.Instance.InfoMessage("You win!", 3);
         yield return new WaitForSeconds(3);
 
@@ -99,6 +111,8 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(5);
 
         SpawnEndingPrefabRain(badEndingRainPrefab);
+        gameOver = true;
+        ResetMusic();
         UIController.Instance.InfoMessage("You win!", 3);
         yield return new WaitForSeconds(3);
 
@@ -115,7 +129,7 @@ public class GameManager : MonoBehaviour
     private void SpawnEndingPrefabRain(GameObject prefab)
     {
         int prefabAmount = 20;
-        Vector3[] pos = RandomRadialPositions(new Vector3(125, 200, 125), 20, 100, prefabAmount);
+        Vector3[] pos = RandomRadialPositions(new Vector3(125, 300, 125), 20, 100, prefabAmount);
 
         for (int i = 0; i < prefabAmount; i++)
         {
