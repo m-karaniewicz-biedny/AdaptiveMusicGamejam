@@ -20,9 +20,9 @@ Trigger	ID	Name			Wwise Object Path	Notes
 	2011614757	MusicChanges			\Default Work Unit\MusicChanges	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	108117535	Winter	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Winter_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\WinterPlaylist\Winter\Winter		20275264
-	213270319	Meadow	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Meadow_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\MeadowPlaylist\Meadow\Meadow		20275264
-	219787393	Cymatics - Crystal Impact	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Cymatics - Crystal Impact_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Crystal Impact\Cymatics - Crystal Impact		1039344
-	520808378	AutumnForest	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\AutumnForest_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\ForestPlaylist\Forest\AutumnForest		20275264
-	696987774	Desert2	C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Desert2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\DesertPlaylist\Desert2\Desert2		20275264
+	108117535	Winter	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Winter_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\WinterPlaylist\Winter\Winter		20275264
+	213270319	Meadow	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Meadow_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\MeadowPlaylist\Meadow\Meadow		20275264
+	219787393	Cymatics - Crystal Impact	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Cymatics - Crystal Impact_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Crystal Impact\Cymatics - Crystal Impact		1039344
+	520808378	AutumnForest	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\AutumnForest_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\ForestPlaylist\Forest\AutumnForest		20275264
+	696987774	Desert2	C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\SFX\Desert2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\DesertPlaylist\Desert2\Desert2		20275264
 
