@@ -74,10 +74,9 @@ crashlytics-build.properties
 *.akd
 *.prof
 *.validationcache
-*.bnk
 /Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
 
+*/GeneratedSoundBanks/
+*.bnk
+
 WwiseUnityIntegration_*_Src.zip
-
-
-
