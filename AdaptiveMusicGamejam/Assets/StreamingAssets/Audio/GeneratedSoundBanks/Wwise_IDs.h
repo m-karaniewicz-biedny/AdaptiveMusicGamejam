@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID CRYSTALEXPLOSIONSFX = 2495924695U;
+        static const AkUniqueID CRYSTALPULSE = 283731020U;
         static const AkUniqueID DESERTSTEPS = 1950989119U;
         static const AkUniqueID FORESTSTEPS = 4099262219U;
         static const AkUniqueID MEADOWSTEPS = 2571390835U;
