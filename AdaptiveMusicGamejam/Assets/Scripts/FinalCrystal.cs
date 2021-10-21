@@ -21,7 +21,11 @@ public class FinalCrystal : Interactable
     {
         AkSoundEngine.PostEvent("FinalCrystalExplosion", gameObject);
         Instantiate(DestroyParticles.gameObject, transform.position, Quaternion.identity);
-        gameObject.SetActive(false);
+        
+        AkSoundEngine.StopAll(gameObject);
+        
+        //gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 
     private void StartTrueEnding()
