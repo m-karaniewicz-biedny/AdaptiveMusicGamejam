@@ -1,7 +1,5 @@
 # This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
-#
+
 */[Ll]ibrary/
 */[Tt]emp/
 */[Oo]bj/
@@ -76,8 +74,14 @@ crashlytics-build.properties
 *.validationcache
 /Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
 
-#*/GeneratedSoundBanks/**/*.bnk
-#**/*.bnk
+# HOW CAN I IGNORE WWISE BANKS
 **/GeneratedSoundBanks/**/*.bnk
+**/GeneratedSoundBanks/**
+**/GeneratedSoundBanks/
+**/[Gg]eneratedSoundBanks/
+**/GeneratedSoundBanks/**/*.bnk
+*/GeneratedSoundBanks/**/*.bnk
+**/*.bnk
+*.bnk
 
 WwiseUnityIntegration_*_Src.zip
