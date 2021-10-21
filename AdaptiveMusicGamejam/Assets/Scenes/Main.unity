@@ -5217,6 +5217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e786ea0a48fca744aa6f62b8bd61196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crystalsThresholdLowerTheTower: 1
+  crystalsThresholdTrueEnding: 2
   tower: {fileID: 330433096}
   trueEndingRainPrefab: {fileID: 2877464538978646512, guid: 03b760c773177514cb64de8dea446c75, type: 3}
   regularEndingRainPrefab: {fileID: 2877464538978646512, guid: f01af5660b04cd145b08c749d1a45b33, type: 3}
@@ -10366,6 +10368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltip: Click to activate The Final Crystal.
   DestroyParticles: {fileID: 6126977257757271097, guid: 737b0b86690023a48a758f1433c16732, type: 3}
+  DestructionSoundPrefab: {fileID: 215543531838665440, guid: 240863606f9c73140967348fcd716ac8, type: 3}
 --- !u!54 &6299044763455293588
 Rigidbody:
   m_ObjectHideFlags: 0

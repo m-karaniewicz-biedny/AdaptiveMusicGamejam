@@ -5,13 +5,14 @@ using AK.Wwise;
 public class FinalCrystal : Interactable
 {
     [SerializeField] ParticleSystem DestroyParticles;
+    [SerializeField] GameObject DestructionSoundPrefab;
 
     public override void Interact()
     {
         int crystals = GameManager.Instance.collectedCrystalCount;
 
-        if (crystals < GameManager.CRYSTALS_NEEDED_TO_LOWER_THE_TOWER) StartBadEnding();
-        else if (crystals >= GameManager.CRYSTALS_NEEDED_FOR_TRUE_ENDING) StartTrueEnding();
+        if (crystals < GameManager.Instance.crystalsThresholdLowerTheTower) StartBadEnding();
+        else if (crystals >= GameManager.Instance.crystalsThresholdTrueEnding) StartTrueEnding();
         else StartRegularEnding();
 
         gameObject.SetActive(false);
@@ -19,11 +20,13 @@ public class FinalCrystal : Interactable
 
     private void DestroyCrystal()
     {
-        AkSoundEngine.PostEvent("FinalCrystalExplosion", gameObject);
+        GameObject sound = Instantiate(DestructionSoundPrefab,transform.position,Quaternion.identity);
+        AkSoundEngine.PostEvent("FinalCrystalExplosion",sound);
+
         Instantiate(DestroyParticles.gameObject, transform.position, Quaternion.identity);
-        
+
         AkSoundEngine.StopAll(gameObject);
-        
+
         //gameObject.SetActive(false);
         Destroy(gameObject);
     }

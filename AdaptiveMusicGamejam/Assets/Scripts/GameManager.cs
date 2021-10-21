@@ -6,6 +6,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    [Header("Game Settings")]
+    public int crystalsThresholdLowerTheTower = 12;
+    public int crystalsThresholdTrueEnding = 16;
+    
+    [Header("References")]
     [SerializeField] TowerController tower;
 
     [Header("Game Over Prefab Rain")]
@@ -17,8 +22,7 @@ public class GameManager : MonoBehaviour
 
     private bool towerLowered;
     internal int collectedCrystalCount;
-    public const int CRYSTALS_NEEDED_TO_LOWER_THE_TOWER = 12;
-    public const int CRYSTALS_NEEDED_FOR_TRUE_ENDING = 16;
+
 
     private void Awake()
     {
@@ -33,7 +37,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         AwardCrystal(0);
-        UIController.Instance.InfoMessage($"Activate {CRYSTALS_NEEDED_TO_LOWER_THE_TOWER} crystals to access the Tower.", 4);
+        UIController.Instance.InfoMessage($"Activate {crystalsThresholdLowerTheTower} crystals to access the Tower.", 4);
     }
 
     private void Update()
@@ -52,8 +56,8 @@ public class GameManager : MonoBehaviour
     public void AwardCrystal(int count)
     {
         collectedCrystalCount += count;
-        UIController.Instance.UpdateCrystalCount(collectedCrystalCount, CRYSTALS_NEEDED_TO_LOWER_THE_TOWER);
-        if (collectedCrystalCount >= CRYSTALS_NEEDED_TO_LOWER_THE_TOWER && !towerLowered)
+        UIController.Instance.UpdateCrystalCount(collectedCrystalCount, crystalsThresholdLowerTheTower);
+        if (collectedCrystalCount >= crystalsThresholdLowerTheTower && !towerLowered)
         {
             tower.LowerTower();
             towerLowered = true;
