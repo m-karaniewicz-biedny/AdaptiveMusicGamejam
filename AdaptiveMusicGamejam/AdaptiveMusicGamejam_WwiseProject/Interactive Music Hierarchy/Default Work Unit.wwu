@@ -79,7 +79,7 @@
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="72.2280011810963"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="21.4724642809888"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="13.9235105821281"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Desert2" ID="{F83D052B-683B-4A0A-A05B-E0877AA7BD90}"/>
@@ -495,7 +495,7 @@
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="43.5401269041677"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="10.8850317260367"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="3.15300596330781"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Meadow" ID="{1349798F-660C-433D-A8C6-A903E104758C}"/>
@@ -698,8 +698,8 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="46.0281341558348"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="23.0140670779219"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="11.5070335389587"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="4.8801055184158"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Winter" ID="{DCC5C364-180E-4EDA-99D3-8478323070FA}"/>
@@ -909,7 +909,7 @@
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="103400"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="202.739135123476"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="304.108702685218"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="39.840326477715"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MeadowFinal" ID="{11BAC675-D41A-4FB0-A88A-F54AECE61FC2}"/>
 																				</MusicClip>
