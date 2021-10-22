@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3947476650">
+		<SoundBank Id="3161908922" Language="SFX" Hash="880182028">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -149,11 +149,11 @@
 					<IncludedMemoryFiles>
 						<File Id="108117535" Language="SFX">
 							<ShortName>Winter.wav</ShortName>
-							<Path>SFX\Winter_D79FB2B7.wem</Path>
+							<Path>SFX\Winter_9EDFC787.wem</Path>
 						</File>
 						<File Id="213270319" Language="SFX">
 							<ShortName>Meadow.wav</ShortName>
-							<Path>SFX\Meadow_D79FB2B7.wem</Path>
+							<Path>SFX\Meadow_9EDFC787.wem</Path>
 						</File>
 						<File Id="219787393" Language="SFX">
 							<ShortName>Cymatics - Crystal Impact.wav</ShortName>
@@ -161,15 +161,15 @@
 						</File>
 						<File Id="520808378" Language="SFX">
 							<ShortName>AutumnForest.wav</ShortName>
-							<Path>SFX\AutumnForest_D79FB2B7.wem</Path>
+							<Path>SFX\AutumnForest_9EDFC787.wem</Path>
 						</File>
 						<File Id="696987774" Language="SFX">
 							<ShortName>Desert2.wav</ShortName>
-							<Path>SFX\Desert2_D79FB2B7.wem</Path>
+							<Path>SFX\Desert2_9EDFC787.wem</Path>
 						</File>
 						<File Id="994688704" Language="SFX">
 							<ShortName>MeadowFinal.wav</ShortName>
-							<Path>SFX\MeadowFinal_D79FB2B7.wem</Path>
+							<Path>SFX\MeadowFinal_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>

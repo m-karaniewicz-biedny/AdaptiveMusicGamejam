@@ -9,7 +9,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
+							<ObjectRef Name="MusicConversion" ID="{3306969C-A8C8-4150-B578-EB4C61719A71}" WorkUnitID="{09C5DBA0-2D25-4BC6-AF26-59B2F5237D2F}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
@@ -284,11 +284,11 @@
 																			<Local>
 																				<MusicClip Name="AutumnForest" ID="{559E62EB-D1FC-4D2F-A2BF-27CEFF7407C9}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="1556.75675675676"/>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="45.4694788516408"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="61.0538944361033"/>
-																						<Property Name="PlayAt" Type="Real64" Value="-1556.75675675676"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="1602.44981331053"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104002.449813311"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="12.1874120673626"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="1.19975546555361"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-1602.44981331053"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="AutumnForest" ID="{0D831C35-668B-4764-89A1-73A6F87CB031}"/>
 																					<PropertyCurveList>
@@ -299,12 +299,12 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>1.55676</XPos>
+																										<XPos>1.60245</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>104</XPos>
+																										<XPos>104.00245</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -318,12 +318,12 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>1.55676</XPos>
+																										<XPos>1.60245</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>104</XPos>
+																										<XPos>104.00245</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -337,12 +337,12 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>1.55676</XPos>
+																										<XPos>1.60245</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>104</XPos>
+																										<XPos>104.00245</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -494,8 +494,8 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="43.5401269041677"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="3.15300596330781"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.714410326315445"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="0.38733408722328"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Meadow" ID="{1349798F-660C-433D-A8C6-A903E104758C}"/>
@@ -698,8 +698,8 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1600"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="11.5070335389587"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="4.8801055184158"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.716009895046602"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="0.338402862544172"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-1600"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Winter" ID="{DCC5C364-180E-4EDA-99D3-8478323070FA}"/>
@@ -908,8 +908,8 @@
 																				<MusicClip Name="MeadowFinal" ID="{EE4BD0AA-62EE-4A29-A329-887A36DEE759}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="103400"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="202.739135123476"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="39.840326477715"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="11.5604444704553"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="0.16173030441832"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="MeadowFinal" ID="{11BAC675-D41A-4FB0-A88A-F54AECE61FC2}"/>
 																				</MusicClip>
