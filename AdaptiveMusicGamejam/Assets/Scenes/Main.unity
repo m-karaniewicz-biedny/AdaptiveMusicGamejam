@@ -5217,8 +5217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e786ea0a48fca744aa6f62b8bd61196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crystalsThresholdLowerTheTower: 1
-  crystalsThresholdTrueEnding: 2
+  crystalsThresholdLowerTheTower: 12
+  crystalsThresholdTrueEnding: 16
   tower: {fileID: 330433096}
   trueEndingRainPrefab: {fileID: 2877464538978646512, guid: 03b760c773177514cb64de8dea446c75, type: 3}
   regularEndingRainPrefab: {fileID: 2877464538978646512, guid: f01af5660b04cd145b08c749d1a45b33, type: 3}
