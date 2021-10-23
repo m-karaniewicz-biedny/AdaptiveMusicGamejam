@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Repozytoria\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Repositories\AdaptiveMusicGamejam\AdaptiveMusicGamejam\AdaptiveMusicGamejam_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="880182028">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4077799535">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -147,55 +147,51 @@
 				</Event>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="108117535" Language="SFX">
-							<ShortName>Winter.wav</ShortName>
-							<Path>SFX\Winter_9EDFC787.wem</Path>
-						</File>
-						<File Id="213270319" Language="SFX">
-							<ShortName>Meadow.wav</ShortName>
-							<Path>SFX\Meadow_9EDFC787.wem</Path>
+						<File Id="44617193" Language="SFX">
+							<ShortName>Meadow2PE.wav</ShortName>
+							<Path>SFX\Meadow2PE_9EDFC787.wem</Path>
 						</File>
 						<File Id="219787393" Language="SFX">
 							<ShortName>Cymatics - Crystal Impact.wav</ShortName>
 							<Path>SFX\Cymatics - Crystal Impact_D79FB2B7.wem</Path>
 						</File>
-						<File Id="520808378" Language="SFX">
-							<ShortName>AutumnForest.wav</ShortName>
-							<Path>SFX\AutumnForest_9EDFC787.wem</Path>
+						<File Id="525513732" Language="SFX">
+							<ShortName>AutumnForest2PE.wav</ShortName>
+							<Path>SFX\AutumnForest2PE_9EDFC787.wem</Path>
 						</File>
-						<File Id="696987774" Language="SFX">
-							<ShortName>Desert2.wav</ShortName>
-							<Path>SFX\Desert2_9EDFC787.wem</Path>
+						<File Id="573106870" Language="SFX">
+							<ShortName>Winter2PE.wav</ShortName>
+							<Path>SFX\Winter2PE_9EDFC787.wem</Path>
 						</File>
-						<File Id="994688704" Language="SFX">
-							<ShortName>MeadowFinal.wav</ShortName>
-							<Path>SFX\MeadowFinal_9EDFC787.wem</Path>
+						<File Id="920073935" Language="SFX">
+							<ShortName>Desert2PE.wav</ShortName>
+							<Path>SFX\Desert2PE_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{88BBE114-15F3-415B-97E2-153103FFB684}">
 							<Media>
-								<File Id="696987774"/>
+								<File Id="920073935"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{82771B0D-E4F5-49D1-90EE-1473E26F7460}">
 							<Media>
-								<File Id="520808378"/>
+								<File Id="525513732"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{990E1496-6299-4BE4-BDA4-034F950DABF7}">
 							<Media>
-								<File Id="213270319"/>
+								<File Id="44617193"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{31CEBD3E-5CC6-46B4-A7D3-74268D8F5123}">
 							<Media>
-								<File Id="108117535"/>
+								<File Id="573106870"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{59E1FFC4-8684-4F8C-8194-A36DEE40A5F5}">
 							<Media>
-								<File Id="994688704"/>
+								<File Id="44617193"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
