@@ -12,7 +12,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{7C0BB504-11D0-458E-A0CD-1E0EEBB35D32}"/>
+						<CurrentStateRef Name="forest" ID="{82771B0D-E4F5-49D1-90EE-1473E26F7460}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Desert" ID="{8C140E56-3867-430B-B5DF-933010D4B5DB}"/>

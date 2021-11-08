@@ -612,9 +612,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="MeadowFinal" ID="{9A1BF34C-CC6D-4920-AE34-81AA2C864DE5}" ShortID="975022226">
+								<MusicSegment Name="MeadowOrchestra2PE" ID="{F9DBF676-1D24-4ADB-915F-47CB3722A6FF}" ShortID="741172865">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="104000"/>
+										<Property Name="EndPosition" Type="Real64" Value="78400"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -625,23 +625,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Meadow2PE" ID="{33CAF0B6-1F6C-46AA-B808-0769A74D4789}" ShortID="22475364">
+										<MusicTrack Name="MeadowOrchestra2PE" ID="{228200D2-0BB1-4D23-BACC-479F78695715}" ShortID="1069920788">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBA908E6-6ADE-4930-86CD-AD7E6653E180}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Meadow2PE" ID="{AA7719C5-7ECE-4B4D-BF27-9894B43C0384}">
+												<AudioFileSource Name="MeadowOrchestra2PE" ID="{88A96BC6-52F3-44EC-9622-994C571F615E}">
 													<Language>SFX</Language>
-													<AudioFile>Meadow2PE.wav</AudioFile>
+													<AudioFile>MeadowOrchestra2PE.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="44617193"/>
+														<MediaID ID="1028535965"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{42351AE1-5D63-4248-86DD-732C674B5AAA}">
+												<MusicTransition Name="Root" ID="{E74F8D1F-EB4F-4FC9-ACFB-048E046396D0}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -652,18 +652,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{8E932EAC-FC89-47B0-B053-FA3A35303719}">
+															<MusicTrackSequence Name="" ID="{A61D1CFF-F050-4F16-A0A2-7CDA982D5C0D}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Meadow2PE" ID="{EBFBE5D6-C6C2-48D0-97E5-640805855CC1}">
+																				<MusicClip Name="MeadowOrchestra2PE" ID="{689DADB0-B051-44C3-9CD4-CD211C00BFD8}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="104000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78400"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="173.132206430499"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Meadow2PE" ID="{AA7719C5-7ECE-4B4D-BF27-9894B43C0384}"/>
+																					<AudioSourceRef Name="MeadowOrchestra2PE" ID="{88A96BC6-52F3-44EC-9622-994C571F615E}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -680,15 +680,15 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{8829CF69-7929-44F4-825C-B814185E2C44}"/>
+													<MusicCue Name="Entry Cue" ID="{0BB1DBE6-B0CB-458B-A2D2-4991576BDB58}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{A3ADC94B-38F3-4C9C-9885-A3283BE4A514}">
+													<MusicCue Name="Exit Cue" ID="{AB264A91-FCD0-4F4D-AD5C-13C35C32F05B}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="103400"/>
+															<Property Name="TimeMs" Type="Real64" Value="76800"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -732,11 +732,11 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{8D29CCAD-3A52-4A67-AF8C-FA5CC9BBDE6D}" ShortID="587273144">
+										<MusicPlaylistItem Name="" ID="{7487B755-6AFD-4FB7-BE7A-68ED4FAA51B0}" ShortID="518274106">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="MeadowFinal" ID="{9A1BF34C-CC6D-4920-AE34-81AA2C864DE5}"/>
+											<SegmentRef Name="MeadowOrchestra2PE" ID="{F9DBF676-1D24-4ADB-915F-47CB3722A6FF}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
