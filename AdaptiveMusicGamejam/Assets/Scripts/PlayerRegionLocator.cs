@@ -12,12 +12,9 @@ public enum Region
     tower,
 }
 
-public class PlayerPositionController : MonoBehaviour
+public class PlayerRegionLocator : MonoBehaviour
 {
-
-
-    Vector3 mapCenter = new Vector3(125, 100, 125);
-    float wrapPositionAltitude = 500;
+    [SerializeField] Vector3 mapCenter;// = new Vector3(125, 100, 125);
 
     internal Region currentRegion;
     Region lastFrameRegion;
@@ -31,16 +28,7 @@ public class PlayerPositionController : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.y < -wrapPositionAltitude)
-        {
-            Vector3 target = GameManager.RandomRadialPositions(
-                new Vector3(125f, wrapPositionAltitude, 125f), 0, 100, 1)[0];
-
-            transform.position = target;
-        }
-
         CheckCurrentRegion();
-
     }
 
     private void CheckCurrentRegion()
@@ -68,25 +56,25 @@ public class PlayerPositionController : MonoBehaviour
             case Region.plains:
                 {
                     AkSoundEngine.PostEvent("StateMeadow", gameObject);
-                    Debug.Log("Entering plains.");
+                    //Debug.Log("Entering plains.");
                     break;
                 }
             case Region.desert:
                 {
                     AkSoundEngine.PostEvent("StateDesert", gameObject);
-                    Debug.Log("Entering desert.");
+                    //Debug.Log("Entering desert.");
                     break;
                 }
             case Region.forest:
                 {
                     AkSoundEngine.PostEvent("StateForest", gameObject);
-                    Debug.Log("Entering forest.");
+                    //Debug.Log("Entering forest.");
                     break;
                 }
             case Region.mountains:
                 {
                     AkSoundEngine.PostEvent("StateWinter", gameObject);
-                    Debug.Log("Entering mountains.");
+                    //Debug.Log("Entering mountains.");
                     break;
                 }
             case Region.tower:
@@ -100,7 +88,7 @@ public class PlayerPositionController : MonoBehaviour
                         AkSoundEngine.PostEvent("StateFinal", gameObject);
                     }
                     
-                    Debug.Log("Entering unspecified region.");
+                    //Debug.Log("Entering unspecified region.");
                     break;
                 }
         }

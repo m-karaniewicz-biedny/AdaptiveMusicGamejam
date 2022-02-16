@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
 
     private void ResetMusic()
     {
-        FindObjectOfType<PlayerPositionController>().ForceUpdateRegion();
+        FindObjectOfType<PlayerRegionLocator>().ForceUpdateRegion();
     }
 
     public IEnumerator TrueEndingSequence()

@@ -10,22 +10,22 @@ public class Crystal : Interactable
     {
         Activate();
     }
-    
+
     private void Activate()
     {
         GameManager.Instance.AwardCrystal(1);
         DestroyCrystal();
     }
-    
+
     private void DestroyCrystal()
     {
-        GameObject sound = Instantiate(DestructionSoundPrefab,transform.position,Quaternion.identity);
-        AkSoundEngine.PostEvent("CrystalExplosionSFX",sound);
-        
-        Instantiate(DestroyParticlePrefab.gameObject,transform.position,Quaternion.identity);
-        
+        GameObject sound = Instantiate(DestructionSoundPrefab, transform.position, Quaternion.identity);
+        AkSoundEngine.PostEvent("CrystalExplosionSFX", sound);
+
+        Instantiate(DestroyParticlePrefab.gameObject, transform.position, Quaternion.identity);
+
         AkSoundEngine.StopAll(gameObject);
-        
+
         //gameObject.SetActive(false);
         Destroy(gameObject);
     }

@@ -9,13 +9,12 @@ public class StayOnTerrain : MonoBehaviour
 
     private void OnValidate() => UpdatePosition();
 
-    private void OnEnable() {
-        UpdatePosition();
-    }
-       
+    private void OnEnable() => UpdatePosition();
+
     private void UpdatePosition()
     {
         Terrain terrain = Terrain.activeTerrain;
+        if (terrain == null) return;
         transform.position = new Vector3(
             transform.position.x,terrain.
             SampleHeight(transform.position)+offsetY,

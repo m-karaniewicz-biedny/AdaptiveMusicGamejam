@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(PlayerRegionLocator))]
+[RequireComponent(typeof(CharacterController))]
 public class FootstepsController : MonoBehaviour
 {
-    CharacterController charCon;
-    PlayerPositionController playerPos;
+    PlayerController con;
+    PlayerRegionLocator playerLoc;
 
     [SerializeField] float footstepDistanceInterval = 3f;
     private float footstepDistanceCounter = 0;
@@ -15,15 +17,13 @@ public class FootstepsController : MonoBehaviour
     private void Awake()
     {
         positionLastFrame = transform.position;
-        if (charCon == null) charCon = GetComponent<CharacterController>();
-        if (playerPos == null) playerPos = GetComponent<PlayerPositionController>();
+        if (con == null) con = GetComponent<PlayerController>();
+        if (playerLoc == null) playerLoc = GetComponent<PlayerRegionLocator>();
     }
 
     private void Update()
     {
-        //bool groundBelow = Physics.SphereCast(transform.position, charCon.radius, Vector3.down, out RaycastHit hit, charCon.bounds.extents.y);
-
-        if (charCon.isGrounded)
+        if (con.IsGrounded)
         {
             footstepDistanceCounter += (transform.position - positionLastFrame).magnitude;
 
@@ -32,8 +32,6 @@ public class FootstepsController : MonoBehaviour
                 while (footstepDistanceCounter > footstepDistanceInterval) footstepDistanceCounter -= footstepDistanceInterval;
 
                 PlayRegionAwareFootstep();
-                //if (hit.collider.tag == terrainTag) PlayTerrainAwareFootstep();
-                //else PlayDefaultFootstep();
             }
         }
 
@@ -42,7 +40,7 @@ public class FootstepsController : MonoBehaviour
 
     private void PlayRegionAwareFootstep()
     {
-        switch (playerPos.currentRegion)
+        switch (playerLoc.currentRegion)
         {
             case Region.plains:
                 {
@@ -70,10 +68,5 @@ public class FootstepsController : MonoBehaviour
                     break;
                 }
         }
-    }
-
-    private void PlayDefaultFootstep()
-    {
-        AkSoundEngine.PostEvent("MeadowSteps", gameObject);
     }
 }
